@@ -1,6 +1,4 @@
 /**
- * spring-boot/demo//src/main/java/com/example/DemoApplication.java 
- * 
  * Spring Boot is the most popular way to start Spring projects.
  * Spring Boot is built on top of the spring framework.
  *
