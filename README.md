@@ -9,3 +9,11 @@ Learn and Remember - [minte9.com/spring-boot](https://www.minte9.com/java/spring
 - [Service](./rest_service/) 
 - [Client](./consuming_rest/) 
 - [Templates](./templates/) 
+
+~~~sh
+# Install
+git clone https://github.com/minte9/spring-boot-pages.git
+
+# Update
+git pull origin main
+~~~
