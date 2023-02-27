@@ -1,3 +1,14 @@
+/**
+ * Consuming REST App
+ * 
+ * Add mapping (/getquote) from a separate service on 8080 port
+ * Use a domain class (Quote) to contain the data that you need.
+ * Any property not bound will be ignored.
+ * 
+ * RestTemplate will use the Jackson JSON library for incomming data.
+ * CommandLineRunner will run the RestTemplate on startup.
+ */
+
 package com.minte9.democonsumingrest;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
