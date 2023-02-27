@@ -22,7 +22,7 @@ public class App {
     }
 
     @Bean
-    public CommandLineRunner run(RestTemplate restTemplate) // console run startup
+    public CommandLineRunner run(RestTemplate restTemplate) // console run
         throws Exception {
             return args -> {
                 Quote quote = restTemplate.getForObject(
