@@ -3,7 +3,7 @@
  * Returns the name of the View responsible to render html content
  */
 
-package com.example.webcontent;
+package com.minte9.webcontent;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
