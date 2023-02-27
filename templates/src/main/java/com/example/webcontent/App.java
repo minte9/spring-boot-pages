@@ -1,7 +1,8 @@
 /**
  * Sprin MVC
  * 
- * Dependencies Spring Web, Thymealf and Spring Boot DevTools.
+ * Generate a new Spring Boot project (start.spring.io} or IDE
+ * Dependencies Spring Web, Thymealf and Spring Boot DevTools
  */
 
 package com.example.webcontent;
@@ -14,5 +15,4 @@ public class App {
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
 	}
-
 }
