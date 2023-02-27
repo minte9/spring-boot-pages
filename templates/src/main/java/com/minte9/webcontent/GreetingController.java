@@ -1,4 +1,5 @@
 /**
+ * Spring Boot MVC Controller
  * The GreetingController handle GET requests for /greeting
  * Returns the name of the View responsible to render html content
  */

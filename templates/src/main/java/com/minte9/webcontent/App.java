@@ -1,6 +1,5 @@
 /**
- * Spring Boot MVC
- * 
+ * Spring Boot MVC App
  * Generate a new Spring Boot project (start.spring.io} or IDE
  * Dependencies Spring Web, Thymealf and Spring Boot DevTools
  */
