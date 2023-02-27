@@ -1,5 +1,5 @@
 /**
- * Sprin MVC
+ * Spring Boot MVC
  * 
  * Generate a new Spring Boot project (start.spring.io} or IDE
  * Dependencies Spring Web, Thymealf and Spring Boot DevTools
