@@ -1,9 +1,6 @@
 /**
- * Standard Groovy includes a Grab annotation ...
- * to declare dependencies.
- * 
- * With RestController annotation ... 
- * Spring Boot grabs Tomcat and Spring Mvc.
+ * Standard Groovy includes a Grab annotation to declare dependencies
+ * With RestController annotation Spring Boot grabs Tomcat and Spring Mvc
  */
 
 @RestController
