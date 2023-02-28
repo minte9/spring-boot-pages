@@ -5,7 +5,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component // Look Here
-public class ScheduledTasks {
+public class Task {
     
     private static final SimpleDateFormat dateFormat = 
         new SimpleDateFormat("HH:mm:ss");
