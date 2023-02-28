@@ -9,6 +9,9 @@ Learn and Remember - [minte9.com/spring-boot](https://www.minte9.com/java/spring
 - [Service](./rest_service/) 
 - [Client](./consuming_rest/) 
 - [Templates](./templates/) 
+- [Security Auth](./security_auth/) 
+- [Command Line](./command_line/)
+- [Scheduled Task](./scheduled_task/)  
 
 
 ~~~sh
