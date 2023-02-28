@@ -6,6 +6,9 @@
  * Spring Boot grabs Tomcat and Spring Mvc.
  */
 
+
+// ~java/SpringBoot/groovy/hello/App.groovy
+
 @RestController
 class App {
 

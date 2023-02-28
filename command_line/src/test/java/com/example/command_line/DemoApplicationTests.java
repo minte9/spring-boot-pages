@@ -1,4 +1,4 @@
-package com.example.groovy_app;
+package com.example.command_line;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
