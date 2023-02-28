@@ -1,4 +1,4 @@
-package com.minte9.scheduletask;
+package com.minte9.scheduled_task;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;

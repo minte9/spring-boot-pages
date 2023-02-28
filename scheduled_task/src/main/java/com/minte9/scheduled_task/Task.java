@@ -1,4 +1,4 @@
-package com.minte9.scheduletask;
+package com.minte9.scheduled_task;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import org.springframework.scheduling.annotation.Scheduled;
