@@ -9,10 +9,10 @@
  * Spring will automatically convert it to a JSON object
  * 
  * http://localhost:8080/users
- * [aaa, bbb]
+ *     [aaa, bbb]
  * 
  * http://localhost:8080/users_json
- * [{"email":"a@a.com","username":"aaa"},{"email":"b@b.com","username":"bbb"}]
+ *     [{"email":"a@a.com","username":"aaa"}, ...]
  */
 
 package com.minte9.jdbc_mysql;
