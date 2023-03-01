@@ -30,12 +30,12 @@ public class App {
         SpringApplication.run(App.class, args);
     }
 
-    @GetMapping("/users_list")
-    public String users_list() {
+    @GetMapping("/users")
+    public String users() {
         String sql = "SELECT username FROM users";
 
         List<String> users = jdbcTemplate.queryForList(sql, String.class);
-        return users.toString();
+        return "Users: " + users.toString();
     }
 
     @GetMapping("/users_json")
