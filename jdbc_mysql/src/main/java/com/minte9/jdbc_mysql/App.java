@@ -31,7 +31,7 @@ public class App {
         SpringApplication.run(App.class, args);
     }
     
-    //{ // map a GET request to the /users endpoint
+    // map a GET request to the /users endpoint
     @GetMapping("/users")  
     public String users() {
         String sql = "SELECT username FROM users";
@@ -40,7 +40,7 @@ public class App {
         return "Users: " + users.toString();
     }
 
-    //{ // map a GET request to the /users_json endpoint
+    // map a GET request to the /users_json endpoint
     @GetMapping("/users_json")
     public List<Map<String, Object>> users_json() {
         String sql = "SELECT email, username FROM users";
