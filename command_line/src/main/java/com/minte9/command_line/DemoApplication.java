@@ -1,4 +1,4 @@
-package com.example.command_line;
+package com.minte9.command_line;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
