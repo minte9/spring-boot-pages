@@ -28,7 +28,7 @@ public class App {
     private JdbcTemplate jdbcTemplate;
 
     public static void main(String[] args) {
-        SpringApplication.run(App.class, args); /* } */
+        SpringApplication.run(App.class, args);
     }
     
     // map a GET request to the /users endpoint
