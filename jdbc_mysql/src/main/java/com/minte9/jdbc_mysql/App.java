@@ -31,15 +31,16 @@ public class App {
         SpringApplication.run(App.class, args);
     }
     
-    // { map a GET request to the /users endpoint
+    //{ // map a GET request to the /users endpoint
     @GetMapping("/users")  
     public String users() {
         String sql = "SELECT username FROM users";
 
-        List<String> users = jdbcTemplate.queryForList(sql, String.class); //{
+        List<String> users = jdbcTemplate.queryForList(sql, String.class);
         return "Users: " + users.toString();
     }
 
+    //{ // map a GET request to the /users_json endpoint
     @GetMapping("/users_json")
     public List<Map<String, Object>> users_json() {
         String sql = "SELECT email, username FROM users";
