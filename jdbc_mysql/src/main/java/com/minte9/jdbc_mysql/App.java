@@ -23,14 +23,16 @@ import java.util.Map;
 @RestController
 public class App {
 
-    @Autowired // inject an instance of JdbcTemplate into the class
+    // inject an instance of JdbcTemplate into the class
+    @Autowired 
     private JdbcTemplate jdbcTemplate;
 
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
     }
     
-    @GetMapping("/users")  // map a GET request to the /users endpoint
+    // map a GET request to the /users endpoint
+    @GetMapping("/users")  
     public String users() {
         String sql = "SELECT username FROM users";
 
