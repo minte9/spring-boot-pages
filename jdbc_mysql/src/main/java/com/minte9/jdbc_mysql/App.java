@@ -15,7 +15,7 @@
  * [{"email":"a@a.com","username":"aaa"},{"email":"b@b.com","username":"bbb"}]
  */
 
-package com.minte9.mysql;
+package com.minte9.jdbc_mysql;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
