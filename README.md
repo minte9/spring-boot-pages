@@ -13,6 +13,7 @@ Learn and Remember - [minte9.com/spring-boot](https://www.minte9.com/java/spring
 - [Command Line](./command_line/)
 - [Scheduled Task](./scheduled_task/)  
 - [Ajax App](./ajax/)  
+- [Jdbc Mysql](./jdbc_mysql/)  
 
 
 ~~~sh
