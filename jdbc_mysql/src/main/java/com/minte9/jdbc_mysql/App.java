@@ -28,7 +28,7 @@ public class App {
     private JdbcTemplate jdbcTemplate;
 
     public static void main(String[] args) {
-        SpringApplication.run(App.class, args); // {
+        SpringApplication.run(App.class, args); //{
     }
     
     // map a GET request to the /users endpoint
@@ -36,7 +36,7 @@ public class App {
     public String users() {
         String sql = "SELECT username FROM users";
 
-        List<String> users = jdbcTemplate.queryForList(sql, String.class);
+        List<String> users = jdbcTemplate.queryForList(sql, String.class); //{
         return "Users: " + users.toString();
     }
 
