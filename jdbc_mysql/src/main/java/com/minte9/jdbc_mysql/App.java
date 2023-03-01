@@ -36,6 +36,7 @@ public class App {
     public String users() {
         String sql = "SELECT username FROM users";
 
+        // JdbcTemplate, converts the result to a list of strings
         List<String> users = jdbcTemplate.queryForList(sql, String.class);
         return "Users: " + users.toString();
     }
@@ -45,6 +46,7 @@ public class App {
     public List<Map<String, Object>> users_json() {
         String sql = "SELECT email, username FROM users";
 
+        // JdbcTemplate, converts the result to a list of maps
         List<Map<String, Object>> rows = jdbcTemplate.queryForList(sql);
         return rows;
     }
