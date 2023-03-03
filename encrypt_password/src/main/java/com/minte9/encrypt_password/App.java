@@ -31,7 +31,7 @@ public class App {
             // String iv = AES_GCM.createIv();
 
         String encrypted = AES_GCM.encrypt(plainText, key, iv); // Look Here
-        return encrypted;
+        return encrypted; // FMmsKpM1DizBbpxKuQl5deeA/4k9ryR/S3Gl
     }
 
     @GetMapping("/users")  
