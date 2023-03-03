@@ -26,12 +26,12 @@ public class App {
         String plainText = "ThePassword";
         String key = "AO5uMsQyKeVfwkVF5L6n0SObW80g5JVYUcRv7WAYVow=";
         String iv = "DnGotRRpb6xlzeu5";
-        
             // key = AES_GCM.createKey(256);
             // String iv = AES_GCM.createIv();
 
         String encrypted = AES_GCM.encrypt(plainText, key, iv); // Look Here
-        return encrypted; // FMmsKpM1DizBbpxKuQl5deeA/4k9ryR/S3Gl
+        return encrypted; 
+            // FMmsKpM1DizBbpxKuQl5deeA/4k9ryR/S3Gl
     }
 
     @GetMapping("/users")  
