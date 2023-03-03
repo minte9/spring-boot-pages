@@ -1,4 +1,4 @@
-package com.minte9.demo;
+package com.minte9.encrytpt_password;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
