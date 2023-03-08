@@ -30,6 +30,9 @@ public class AppConfig {
         String iv = "DnGotRRpb6xlzeu5";
         String decrypted = AES_GCM.decrypt(encrypted, key, iv);  // Look Here
 
+            // key = AES_GCM.createKey(256);
+            // String iv = AES_GCM.createIv(); // generated in App.java
+
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl(env.getProperty("spring.datasource.url"));
