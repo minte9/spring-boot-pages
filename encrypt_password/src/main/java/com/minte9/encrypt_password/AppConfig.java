@@ -7,7 +7,7 @@
  * it simply requests the DataSource from the Spring application context.
  * 
  */
-package com.minte9.encrytpt_password;
+package com.minte9.encrypt_password;
 
 import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,10 +1,9 @@
-package com.minte9.demo;
+package com.minte9.encrypt_password;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -34,7 +33,7 @@ public class App {
             // FMmsKpM1DizBbpxKuQl5deeA/4k9ryR/S3Gl
     }
 
-    @GetMapping("/users")  
+    @GetMapping("/")  
     public String users() {
         String sql = "SELECT username FROM users";
         List<String> users = jdbcTemplate.queryForList(sql, String.class);

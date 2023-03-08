@@ -1,4 +1,4 @@
-package com.minte9.encrytpt_password;
+package com.minte9.encrypt_password;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
@@ -9,7 +9,7 @@ import javax.crypto.SecretKey;
 import javax.crypto.spec.GCMParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-class AES_GCM {
+public class AES_GCM {
 
     public static String encrypt(String plainText, String key, String ivStr)
             throws Exception {
