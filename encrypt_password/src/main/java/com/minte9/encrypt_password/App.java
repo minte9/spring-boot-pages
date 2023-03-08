@@ -26,7 +26,7 @@ public class App {
         String key = "AO5uMsQyKeVfwkVF5L6n0SObW80g5JVYUcRv7WAYVow=";
         String iv = "DnGotRRpb6xlzeu5";
             // key = AES_GCM.createKey(256);
-            // String iv = AES_GCM.createIv();
+            // iv = AES_GCM.createIv();
 
         String encrypted = AES_GCM.encrypt(plainText, key, iv); // Look Here
         return encrypted; 
