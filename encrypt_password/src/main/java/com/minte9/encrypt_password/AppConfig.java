@@ -35,7 +35,7 @@ public class AppConfig {
 
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver"); 
-                                        // oracle.jdbc.OracleDriver
+                                    // oracle.jdbc.OracleDriver
         dataSource.setUrl(env.getProperty("spring.datasource.url"));
         dataSource.setUsername(env.getProperty("spring.datasource.username"));
         dataSource.setPassword(decrypted);
