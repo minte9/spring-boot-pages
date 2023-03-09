@@ -1,4 +1,6 @@
 /** 
+ * Mysql App to get data (json)
+ * 
  * Query a database in Spring Boot without using JPA 
  * or creating a model class.
  * 
@@ -45,6 +47,6 @@ public class App {
     public List<Map<String, Object>> users_json() {
         String sql = "SELECT email, username FROM users";
         List<Map<String, Object>> rows = jdbcTemplate.queryForList(sql);
-        return rows;
+        return rows; // json
     }
 }
