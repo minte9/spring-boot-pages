@@ -7,6 +7,9 @@
  * 
  * By returning the list of maps from the controller method, 
  * Spring will automatically convert it to a JSON object
+ * 
+ * The Jackson library to get json is included as a transitive dependency 
+ * of the spring-boot-starter-web dependency.
  */
 
 package com.minte9.jdbc_mysql;
@@ -31,22 +34,16 @@ public class App {
         SpringApplication.run(App.class, args);
     }
     
-    // map a GET request to the /users endpoint
-    @GetMapping("/users")  
+    @GetMapping("/")  
     public String users() {
         String sql = "SELECT username FROM users";
-
-        // JdbcTemplate, converts the result to a list of strings
         List<String> users = jdbcTemplate.queryForList(sql, String.class);
         return "Users: " + users.toString();
     }
 
-    // map a GET request to the /users_json endpoint
-    @GetMapping("/users_json")
+    @GetMapping("/getusers")
     public List<Map<String, Object>> users_json() {
         String sql = "SELECT email, username FROM users";
-
-        // JdbcTemplate, converts the result to a list of maps
         List<Map<String, Object>> rows = jdbcTemplate.queryForList(sql);
         return rows;
     }
