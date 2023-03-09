@@ -1,5 +1,4 @@
 java spring-boot enable-https
-https://www.tutorialspoint.com/spring_boot/spring_boot_enabling_https.htm
 
 * Application
 
@@ -52,3 +51,13 @@ If you already have .crt and .key files generated, you need to convert them.
 #--
 openssl pkcs12 -export -in certs/myserver.crt -inkey certs/myserver.key -out certs/myserver.p12 -name myserver
 --#
+
+-----------------------------------------------
+
+Short version
+
+Spring web application on port 8443
+
+keytool -genkey
+certs/
+src/resources/application.properties
