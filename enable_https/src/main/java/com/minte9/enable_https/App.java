@@ -1,10 +1,5 @@
 /**
  * Rest Controller service
- * 
- * Use start.spring.io to create a new Spring Web project. 
- * The service will handle GET requests for /greeting and return JSON response. 
- * 
- * Use start.spring.io to create a new Spring Web project.
  */
 
 package com.minte9.enable_https;
