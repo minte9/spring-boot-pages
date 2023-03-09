@@ -35,7 +35,7 @@ public class App {
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
     }
-    
+
     @GetMapping("/")  
     public String users() {
         String sql = "SELECT username FROM users";
@@ -43,7 +43,7 @@ public class App {
         return "Users: " + users.toString();
     }
 
-    @GetMapping("/getusers")
+    @GetMapping(path = "/getusers", produces = "application/json")
     public List<Map<String, Object>> users_json() {
         String sql = "SELECT email, username FROM users";
         List<Map<String, Object>> rows = jdbcTemplate.queryForList(sql);
