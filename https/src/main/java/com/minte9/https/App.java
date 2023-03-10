@@ -2,7 +2,7 @@
  * Rest Controller service
  */
 
-package com.minte9.enable_https;
+package com.minte9.https;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
