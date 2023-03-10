@@ -27,8 +27,8 @@ public class AppConfig {
     public DataSource dataSource () throws Exception {
 
         String encrypted = env.getProperty("spring.datasource.password");
-        String key = "AO5uMsQyKeVfwkVF5L6n0SObW80g5JVYUcRv7WAYVow=";
-        String iv = "DnGotRRpb6xlzeu5";
+        String key = env.getProperty("spring.datasource.key");
+        String iv =  env.getProperty("spring.datasource.iv");
         String decrypted = AES_GCM.decrypt(encrypted, key, iv);  // Look Here
 
             // key = AES_GCM.createKey(256);
