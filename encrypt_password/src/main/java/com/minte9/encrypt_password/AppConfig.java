@@ -34,7 +34,7 @@ public class AppConfig {
 
     private void encrypt_password() throws Exception {
 
-        String plainText = "ThePassword";
+        String plainText = "The??...";
         String key = System.getenv("SB_ENCRYPT_PASSWORD_KEY");
         String iv = System.getenv("SB_ENCRYPT_PASSWORD_IV");        
         String encrypted = AES_GCM.encrypt(plainText, key, iv); // Look Here
