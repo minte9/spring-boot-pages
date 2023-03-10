@@ -10,7 +10,6 @@ package com.minte9.encrypt_password;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.core.env.Environment;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,25 +23,31 @@ public class App {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    @Autowired
-    private Environment env;
-
     public static void main(String[] args) throws Exception {
         SpringApplication.run(App.class, args);
+    }
+
+    @GetMapping("/genkeys")
+    public String genkeys() throws Exception {
+
+        String key = AES_GCM.createKey(256);
+        String iv = AES_GCM.createIv();
+        System.out.println(key); // AO5uMsQyKeVfwkVF5L6n0SObW80g5JVYUcRv7WAYVow=
+        System.out.println(iv); // DnGotRRpb6xlzeu5
+
+        return "Secret keys generated (view console)";
     }
 
     @GetMapping("/encrypt")
     public String encrypt() throws Exception {
 
         String plainText = "ThePassword";
-        String key = env.getProperty("spring.datasource.key");
-        String iv =  env.getProperty("spring.datasource.iv");
-            // key = AES_GCM.createKey(256);
-            // iv = AES_GCM.createIv();
-
+        String key = System.getenv("SB_ENCRYPT_PASSWORD_KEY");
+        String iv = System.getenv("SB_ENCRYPT_PASSWORD_IV");        
         String encrypted = AES_GCM.encrypt(plainText, key, iv); // Look Here
-        return encrypted; 
-            // FMmsKpM1DizBbpxKuQl5deeA/4k9ryR/S3Gl
+        System.out.println(encrypted); // FMmsKpM1DizBbpxKuQl5deeA/4k9ryR/S3Gl
+
+        return "Encrypted password generated (view console)";
     }
 
     @GetMapping("/")  
