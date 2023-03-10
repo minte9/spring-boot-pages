@@ -27,30 +27,6 @@ public class App {
         SpringApplication.run(App.class, args);
     }
 
-    @GetMapping("/genkeys")
-    public String genkeys() throws Exception {
-
-        String key = AES_GCM.createKey(256);
-        String iv = AES_GCM.createIv();
-        System.out.println(key); 
-        System.out.println(iv);
-            // AO5uMsQyKeVfwkVF5L6n0SObW80g5JVYUcRv7WAYVow=
-            // DnGotRRpb6xlzeu5
-        return "Secret keys generated (view console)";
-    }
-
-    @GetMapping("/encrypt")
-    public String encrypt() throws Exception {
-
-        String plainText = "ThePassword";
-        String key = System.getenv("SB_ENCRYPT_PASSWORD_KEY");
-        String iv = System.getenv("SB_ENCRYPT_PASSWORD_IV");        
-        String encrypted = AES_GCM.encrypt(plainText, key, iv); // Look Here
-        System.out.println(encrypted); 
-            // FMmsKpM1DizBbpxKuQl5deeA/4k9ryR/S3Gl
-        return "Encrypted password generated (view console)";
-    }
-
     @GetMapping("/")  
     public Object users() {
         String sql = "SELECT username FROM users";

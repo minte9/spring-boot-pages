@@ -7,7 +7,8 @@
  * When a component in the application needs to connect to the database, 
  * it simply requests the DataSource from the Spring application context.
  * 
- * Don't keep secrets in play text, use environment variables:
+ * Don't keep secrets in play text, use environment variables.
+ * Use environment variables:
  * 
  * geidt ~/.bashrc
  *   export SB_ENCRYPT_PASSWORD_KEY=mysecretkey
@@ -30,21 +31,32 @@ public class AppConfig {
 
     @Autowired
     private Environment env;
+
     private Boolean ENCRYPT = false;
+    private Boolean GENKEYS = false;
 
-    private void encrypt_password() throws Exception {
+    public void genkeys() throws Exception {
+        String key = AES_GCM.createKey(256);
+        String iv = AES_GCM.createIv();
+        System.out.println(key); // AO5uMsQyKeVfwkVF5L6n0SObW80g5JVYUcRv7WAYVow=
+        System.out.println(iv); // DnGotRRpb6xlzeu5
+        System.exit(0); 
+    }
 
+    private void encrypt() throws Exception {
         String plainText = "The??...";
         String key = System.getenv("SB_ENCRYPT_PASSWORD_KEY");
         String iv = System.getenv("SB_ENCRYPT_PASSWORD_IV");        
         String encrypted = AES_GCM.encrypt(plainText, key, iv); // Look Here
         System.out.println(encrypted); // FMmsKpM1DizBbpxKuQl5deeA/4k9ryR/S3Gl
+        System.exit(0); 
     }
 
     @Bean
     public DataSource dataSource () throws Exception {
 
-        if (ENCRYPT) { encrypt_password(); System.exit(0); }
+        if (ENCRYPT) encrypt();
+        if (GENKEYS) genkeys();
 
         String encrypted = env.getProperty("spring.datasource.password");
         String key = System.getenv("SB_ENCRYPT_PASSWORD_KEY");
