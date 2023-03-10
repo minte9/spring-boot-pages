@@ -38,6 +38,7 @@ public class AppConfig {
     public void genkeys() throws Exception {
         String key = AES_GCM.createKey(256);
         String iv = AES_GCM.createIv();
+        
         System.out.println(key); // AO5uMsQyKeVfwkVF5L6n0S...
         System.out.println(iv); // DnGotRRpb6xlzeu5
         System.exit(0); 
@@ -48,6 +49,7 @@ public class AppConfig {
         String key = System.getenv("SB_ENCRYPT_PASSWORD_KEY");
         String iv = System.getenv("SB_ENCRYPT_PASSWORD_IV");        
         String encrypted = AES_GCM.encrypt(plainText, key, iv); // Look Here
+
         System.out.println(encrypted); // FMmsKpM1DizBbpxKuQl5deeA...
         System.exit(0); 
     }
