@@ -1,3 +1,10 @@
+/**
+ * AES GCM cipher
+ * 
+ * GCM is proven secure in the concrete security model.
+ * The ECB can leak information about the plaintext.
+ */
+
 package com.minte9.encrypt_password;
 
 import java.security.NoSuchAlgorithmException;

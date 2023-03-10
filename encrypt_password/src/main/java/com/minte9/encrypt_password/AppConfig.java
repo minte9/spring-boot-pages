@@ -1,4 +1,5 @@
-/**
+/** AppConfig.java
+ * 
  * The dataSource() method in the AppConfig class is annotated with @Bean. 
  * Spring will create a bean of type DataSource using the method 
  * and will store it in the application context.

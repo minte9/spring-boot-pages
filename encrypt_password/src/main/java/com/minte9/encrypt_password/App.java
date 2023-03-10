@@ -1,3 +1,9 @@
+/**
+ * App.java
+ * 
+ * REST controller with encrypted DB password 
+ */
+
 package com.minte9.encrypt_password;
 
 import java.util.List;
