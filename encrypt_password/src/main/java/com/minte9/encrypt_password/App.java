@@ -34,7 +34,6 @@ public class App {
         String iv = AES_GCM.createIv();
         System.out.println(key); // AO5uMsQyKeVfwkVF5L6n0SObW80g5JVYUcRv7WAYVow=
         System.out.println(iv); // DnGotRRpb6xlzeu5
-
         return "Secret keys generated (view console)";
     }
 
@@ -46,7 +45,6 @@ public class App {
         String iv = System.getenv("SB_ENCRYPT_PASSWORD_IV");        
         String encrypted = AES_GCM.encrypt(plainText, key, iv); // Look Here
         System.out.println(encrypted); // FMmsKpM1DizBbpxKuQl5deeA/4k9ryR/S3Gl
-
         return "Encrypted password generated (view console)";
     }
 
@@ -54,7 +52,6 @@ public class App {
     public Object users() {
         String sql = "SELECT username FROM users";
         List<Map<String, Object>> data = jdbcTemplate.queryForList(sql);
-        return data;
-            // [{"username":"aaa"},{"username":"bbb"}]
+        return data; // [{"username":"aaa"},{"username":"bbb"}]
     }
 }
