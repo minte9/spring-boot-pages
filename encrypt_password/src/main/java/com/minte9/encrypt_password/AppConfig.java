@@ -10,7 +10,7 @@
  * Don't keep secrets in play text, use environment variables.
  * Use environment variables:
  * 
- * geidt ~/.bashrc
+ * gedit ~/.bashrc
  *   export SB_ENCRYPT_PASSWORD_KEY=mysecretkey
  *   export SB_ENCRYPT_PASSWORD_IV=mysecretiv
  * source ~/.bashrc
