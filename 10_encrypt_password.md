@@ -28,8 +28,9 @@ Spring web application with `mysql` connection.
 ~~~
 
 Map an entry for `generate encrypted` password.
-
-#-- encrypt_password/App.java --#
+~~~
+encrypt_password/App.java
+~~~
 ~~~
 // resources/application.properties
 
