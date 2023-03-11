@@ -2,7 +2,7 @@
 
 ## Application
 
-Spring web application with {{mysql}} connection.
+Spring web application with `mysql` connection.
 ~~~
 <dependency>
 	<groupId>mysql</groupId>
