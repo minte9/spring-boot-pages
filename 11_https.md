@@ -4,7 +4,7 @@
 
 Spring `web` application on port 8443
 
-#-- https/App.java --#
+https://github.com/minte9/spring-boot-pages/blob/0df14ec2b3868faa8b6326133ad9a98ff3247641/https/src/main/java/com/minte9/https/App.java
 
 ~~~
 // src/resources/application.properties
