@@ -47,7 +47,7 @@ spring.datasource.driver-class-name = com.mysql.cj.jdbc.Driver
 
 DataSource bean in configuration file reads the `encrypted password`.
 ~~~
-encrypt_password/AppConfig.java
+    encrypt_password/AppConfig.java
 ~~~
 
 ### AES GCM
