@@ -65,6 +65,15 @@ openssl pkcs12 -export -in certs/myserver.crt -inkey certs/myserver.key -out \
 
 ##
 
+### Questions
+
+~~~
+The certificate keystore.p12 is activated in: [b]
+
+a) pom.xml
+b) application.properties
+~~~
+
 ### Web Page
 
 [https://www.minte9.com/java/spring-boot-https-1452](https://www.minte9.com/java/spring-boot-https-1452)  
