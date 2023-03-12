@@ -56,3 +56,6 @@ If you already have `.crt and .key` files generated, you need to convert them.
 openssl pkcs12 -export -in certs/myserver.crt -inkey certs/myserver.key -out \
      certs/myserver.p12 -name myserver
 ~~~
+
+
+[https://www.minte9.com/java/spring-boot-https-1452](https://www.minte9.com/java/spring-boot-https-1452)
