@@ -21,6 +21,9 @@ keytool -genkey -alias tomcat -storetype PKCS12 \
 ### Configure
 
 Update `application.properties` configuration values.
+
+https://github.com/minte9/spring-boot-pages/blob/1503629e9f8c04d17601ec0f9b7766fe54c4f6dc/https/src/main/resources/application.properties#L1-L5
+
 ~~~
 // src/resources/application.properties
 
@@ -30,6 +33,7 @@ server.ssl.key-store-password = mypassword
 server.ssl.keyStoreType = PKCS12
 server.ssl.keyAlias = tomcat
 ~~~
+
 
 ### Run
 
