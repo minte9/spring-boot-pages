@@ -5,7 +5,12 @@
 Spring `web` application on port 8443
 
 https://github.com/minte9/spring-boot-pages/blob/4c7099d90a89fd6abbc6fa2bb815f86ea7bb7f49/https/pom.xml#L19-L30
+
+Map entries to Rest Controller.
+
 https://github.com/minte9/spring-boot-pages/blob/4c7099d90a89fd6abbc6fa2bb815f86ea7bb7f49/https/src/main/java/com/minte9/https/App.java#L19-L29
+
+Set port as 8443 in application.properties
 
 ~~~
 // src/resources/application.properties
