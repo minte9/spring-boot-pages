@@ -19,7 +19,7 @@ http://127.0.0.1:8443/hello
 
 Create self-signed certificate, using java `keytool` in a new certs/ in root directory.
 ~~~
-// certs/keystorep12
+cd src/resources/certs/
 
 keytool -genkey -alias tomcat -storetype PKCS12 \
     -keyalg RSA -keysize 2048 -keystore keystore.p12 -validity 3650
