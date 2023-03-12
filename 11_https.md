@@ -7,13 +7,6 @@ Spring `web` application on port 8443
 https://github.com/minte9/spring-boot-pages/blob/4c7099d90a89fd6abbc6fa2bb815f86ea7bb7f49/https/pom.xml#L19-L30
 https://github.com/minte9/spring-boot-pages/blob/4c7099d90a89fd6abbc6fa2bb815f86ea7bb7f49/https/src/main/java/com/minte9/https/App.java#L19-L29
 
-~~~
-// src/resources/application.properties
-server.port:8443
-
-http://127.0.0.1:8443/hello
-    // Hello World
-~~~
 
 ### Certificate
 
