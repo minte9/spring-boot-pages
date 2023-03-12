@@ -1,6 +1,6 @@
 # Java Spring-Boot HTTPS
 
-[https://www.minte9.com/java/spring-boot-https-1452](https://www.minte9.com/java/spring-boot-https-1452)
+[minte9.com/java/spring-boot-https-1452](https://www.minte9.com/java/spring-boot-https-1452)
 
 ## Application
 
