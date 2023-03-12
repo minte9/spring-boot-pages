@@ -35,7 +35,7 @@ https://github.com/minte9/spring-boot-pages/blob/1503629e9f8c04d17601ec0f9b7766f
 
 ### Run
 
-Check that https is `enabled` on localhost.
+Check that `https` is enabled on localhost.
 ~~~
 mvn spring-boot:run
 
