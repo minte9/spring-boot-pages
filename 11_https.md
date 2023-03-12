@@ -42,6 +42,7 @@ https://github.com/minte9/spring-boot-pages/blob/1503629e9f8c04d17601ec0f9b7766f
 ### Run
 
 Check that `https` is enabled on localhost.
+
 ~~~
 mvn spring-boot:run
 
@@ -52,6 +53,7 @@ https://127.0.0.1:8443/hello
 ### PKCS12
 
 If you already have `.crt and .key` files generated, you need to convert them.
+
 ~~~
 openssl pkcs12 -export -in certs/myserver.crt -inkey certs/myserver.key -out \
      certs/myserver.p12 -name myserver
