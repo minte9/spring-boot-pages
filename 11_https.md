@@ -4,26 +4,7 @@
 
 Spring `web` application on port 8443
 
-<<<<<<< HEAD
 https://github.com/minte9/spring-boot-pages/blob/4c7099d90a89fd6abbc6fa2bb815f86ea7bb7f49/https/pom.xml#L19-L30
-=======
-[spring-boot-pages/https/pom.xml](https://github.com/minte9/spring-boot-pages/blob/main/https/pom.xml)
-~~~
-<dependencies> 
- 	<dependency> 
- 		<groupId>org.springframework.boot</groupId> 
- 		<artifactId>spring-boot-starter-web</artifactId> 
- 	</dependency> 
-  
- 	<dependency> 
- 		<groupId>org.springframework.boot</groupId> 
- 		<artifactId>spring-boot-starter-test</artifactId> 
- 		<scope>test</scope> 
- 	</dependency> 
-</dependencies> 
-~~~
-
->>>>>>> 438161aead67874506524ba92b71815fdbbf475a
 https://github.com/minte9/spring-boot-pages/blob/4c7099d90a89fd6abbc6fa2bb815f86ea7bb7f49/https/src/main/java/com/minte9/https/App.java#L19-L29
 
 ~~~
