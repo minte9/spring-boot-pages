@@ -5,7 +5,6 @@
 Spring `web` application on port 8443
 
 [spring-boot-pages/https/pom.xml](https://github.com/minte9/spring-boot-pages/blob/main/https/pom.xml)
-
 ~~~
 <dependencies> 
  	<dependency> 
