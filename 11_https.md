@@ -4,8 +4,8 @@
 
 Spring `web` application on port 8443
 
-https://github.com/minte9/spring-boot-pages/blob/5574aa8df570d6475e3f9c559f669ecac3952930/https/pom.xml#L20-L23
-https://github.com/minte9/spring-boot-pages/blob/4c7099d90a89fd6abbc6fa2bb815f86ea7bb7f49/https/src/main/java/com/minte9/https/App.java#L20-L28
+https://github.com/minte9/spring-boot-pages/blob/4c7099d90a89fd6abbc6fa2bb815f86ea7bb7f49/https/pom.xml#L19-L30
+https://github.com/minte9/spring-boot-pages/blob/4c7099d90a89fd6abbc6fa2bb815f86ea7bb7f49/https/src/main/java/com/minte9/https/App.java#L19-L29
 
 ~~~
 // src/resources/application.properties
