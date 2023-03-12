@@ -57,7 +57,10 @@ openssl pkcs12 -export -in certs/myserver.crt -inkey certs/myserver.key -out \
      certs/myserver.p12 -name myserver
 ~~~
 
+### References
+
+[https://www.tutorialspoint.com/spring_boot/spring_boot_enabling_https.htm](https://www.tutorialspoint.com/spring_boot/spring_boot_enabling_https.htm)
+
 ##
 
 [https://www.minte9.com/java/spring-boot-https-1452](https://www.minte9.com/java/spring-boot-https-1452)  
-[https://www.tutorialspoint.com/spring_boot/spring_boot_enabling_https.htm](https://www.tutorialspoint.com/spring_boot/spring_boot_enabling_https.htm)
