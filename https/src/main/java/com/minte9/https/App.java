@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class App {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
 	}
 
-	@GetMapping("/")
+    @GetMapping("/")
     public String welcome() {
         return "Welcome";
     }
