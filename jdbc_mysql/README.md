@@ -88,11 +88,7 @@ http://localhost:8080/users
 
 ### References
 
-MySQL with Spring JDBC  
 https://www.codejava.net/frameworks/spring-boot/connect-to-mysql-database-examples  
-JDBC with Spring  
 https://spring.io/guides/gs/relational-data-access  
-Setup Mysql with Spring Boot  
 https://www.twilio.com/blog/beginner-mysql-database-java-spring-boot  
-Oracle with Spring JDBC  
 https://www.codejava.net/frameworks/spring-boot/connect-to-oracle-database-examples
