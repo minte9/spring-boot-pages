@@ -75,6 +75,6 @@ openssl pkcs12 -export -in certs/myserver.crt -inkey certs/myserver.key -out \
 
 https://www.tutorialspoint.com/spring_boot/spring_boot_enabling_https.htm
 
-### Web page
+### Web page 
 
 https://www.minte9.com/java/spring-boot-https-1452
