@@ -17,11 +17,14 @@ Learn and Remember - [minte9.com/spring-boot](https://www.minte9.com/java/spring
 - [Encrypt Password](./encrypt_password/)  
 - [Https](./https/) 
 
+## Install
 
 ~~~sh
-# Install
 git clone https://github.com/minte9/spring-boot-pages.git
+~~~
 
-# Update
+## Updates
+
+~~~sh
 git pull origin main
 ~~~
