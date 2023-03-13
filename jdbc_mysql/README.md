@@ -77,6 +77,8 @@ http://localhost:8080/users_json
     // [{"email":"a@a.com","username":"aaa"}, ... }]
 ~~~
 
+### Archive
+
 The `.jar` file is handy for deployment because it includes all the dependencies.
 
 ~~~
