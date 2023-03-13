@@ -4,7 +4,7 @@
 
 Spring `web` application on port 8443
 
-#--
+~~~
 <dependencies> 
      <dependency> 
          <groupId>org.springframework.boot</groupId> 
@@ -16,7 +16,7 @@ Spring `web` application on port 8443
          <scope>test</scope> 
      </dependency> 
 </dependencies> 
---#
+~~~
 
 Map `entries` to Rest Controller.
 
