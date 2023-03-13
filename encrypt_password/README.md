@@ -30,7 +30,7 @@ Map an entry for `generate encrypted` password.
 
 https://github.com/minte9/spring-boot-pages/blob/3a669bd133eb725c03ebd7dcf4450b9072f40a80/encrypt_password/src/main/java/com/minte9/encrypt_password/App.java#L19-L37
 
-Add `encrypted password` to application.properties.
+Add `encrypted password` to config.
 
 https://github.com/minte9/spring-boot-pages/blob/42adbc00b9e2547b8d9339e6085c6188806cbc46/encrypt_password/src/main/resources/application.properties#L1-L6
 
