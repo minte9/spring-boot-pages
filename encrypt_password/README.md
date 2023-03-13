@@ -28,9 +28,13 @@ Spring web application with `mysql` connection.
 -->
 ~~~
 
+### Main
+
 Map an entry for `generate encrypted` password.
 
 https://github.com/minte9/spring-boot-pages/blob/3a669bd133eb725c03ebd7dcf4450b9072f40a80/encrypt_password/src/main/java/com/minte9/encrypt_password/App.java#L19-L37
+
+### Config
 
 Add `encrypted password` to config.
 
