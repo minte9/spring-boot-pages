@@ -1,7 +1,7 @@
 
 # Java Spring-Boot Mysql
 
-## Mysql
+## Schema
 
 Create database `table schema` and add data.
 
@@ -29,7 +29,6 @@ Start a `Spring Web` project and add dependencies to pom.xml
 ~~~
 spring init --build=maven jdbc_mysql
 ~~~
-
 ~~~
 <dependency>
 	<groupId>mysql</groupId>
@@ -45,7 +44,6 @@ spring init --build=maven jdbc_mysql
 	<artifactId>spring-boot-starter-data-jdbc</artifactId>
 </dependency>
 ~~~
-
 ~~~
 # src/main/resources/application.properties
 
@@ -86,3 +84,18 @@ java -jar jdbc_mysql-0.0.1.jar
 http://localhost:8080/users
     // [aaa, bbb]
 ~~~
+
+
+### References
+
+MySQL with Spring JDBC  
+https://www.codejava.net/frameworks/spring-boot/connect-to-mysql-database-examples  
+
+DBC with Spring 
+https://spring.io/guides/gs/relational-data-access  
+
+Setup Mysql with Spring Boot  
+https://www.twilio.com/blog/beginner-mysql-database-java-spring-boot  
+
+Oracle with Spring JDBC  
+https://www.codejava.net/frameworks/spring-boot/connect-to-oracle-database-examples
