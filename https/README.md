@@ -1,5 +1,6 @@
 # Java Spring-Boot Https
 
+
 ## Application
 
 Spring `web` application on port 8443
@@ -18,9 +19,13 @@ Spring `web` application on port 8443
 </dependencies> 
 ~~~
 
+### Main
+
 Map `entries` to Rest Controller.
 
 https://github.com/minte9/spring-boot-pages/blob/4c7099d90a89fd6abbc6fa2bb815f86ea7bb7f49/https/src/main/java/com/minte9/https/App.java#L19-L29
+
+### Port
 
 Set port as `8443` in application.properties
 
@@ -31,7 +36,6 @@ server.port:8443
 http://127.0.0.1:8443/hello
     // Hello World
 ~~~
-
 
 ### Certificate
 
@@ -49,7 +53,6 @@ keytool -genkey -alias tomcat -storetype PKCS12 \
 Update `application.properties` configuration values.
 
 https://github.com/minte9/spring-boot-pages/blob/1503629e9f8c04d17601ec0f9b7766fe54c4f6dc/https/src/main/resources/application.properties#L1-L5
-
 
 ### Run
 
@@ -70,6 +73,7 @@ If you already have `.crt and .key` files generated, you need to convert them.
 openssl pkcs12 -export -in certs/myserver.crt -inkey certs/myserver.key -out \
      certs/myserver.p12 -name myserver
 ~~~
+
 
 ### References
 
