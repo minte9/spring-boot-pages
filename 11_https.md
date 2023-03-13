@@ -1,10 +1,22 @@
-# Java Spring-Boot HTTPS
+# Java Spring-Boot Https
 
 ## Application
 
 Spring `web` application on port 8443
 
-https://github.com/minte9/spring-boot-pages/blob/4c7099d90a89fd6abbc6fa2bb815f86ea7bb7f49/https/pom.xml#L19-L30
+#--
+<dependencies> 
+     <dependency> 
+         <groupId>org.springframework.boot</groupId> 
+         <artifactId>spring-boot-starter-web</artifactId> 
+     </dependency> 
+     <dependency> 
+         <groupId>org.springframework.boot</groupId> 
+         <artifactId>spring-boot-starter-test</artifactId> 
+         <scope>test</scope> 
+     </dependency> 
+</dependencies> 
+--#
 
 Map `entries` to Rest Controller.
 
@@ -58,3 +70,11 @@ If you already have `.crt and .key` files generated, you need to convert them.
 openssl pkcs12 -export -in certs/myserver.crt -inkey certs/myserver.key -out \
      certs/myserver.p12 -name myserver
 ~~~
+
+### References
+
+https://www.tutorialspoint.com/spring_boot/spring_boot_enabling_https.htm
+
+### Web page
+
+https://www.minte9.com/java/spring-boot-https-1452
