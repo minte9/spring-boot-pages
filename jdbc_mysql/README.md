@@ -1,0 +1,88 @@
+
+# Java Spring-Boot Mysql
+
+## Mysql
+
+Create database `table schema` and add data.
+
+~~~
+create database db_example;
+create user 'springuser'@'%' identified by 'ThePassword';
+grant all on db_example.* to 'springuser'@'%';
+
+create table users (
+  user_id int unsigned NOT NULL AUTO_INCREMENT,
+  email varchar(50) NOT NULL,
+  username varchar(50) NOT NULL,
+  PRIMARY KEY (user_id)
+);
+
+insert into users (email, username) values ('a@a.com', 'aaa');
+insert into users (email, username) values ('b@b.com', 'bbb');
+select * from users;
+~~~
+
+### Dependencies
+
+Start a `Spring Web` project and add dependencies to pom.xml
+
+~~~
+spring init --build=maven jdbc_mysql
+~~~
+
+~~~
+<dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<scope>runtime</scope>
+</dependency>
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-jdbc</artifactId>
+</dependency>
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-data-jdbc</artifactId>
+</dependency>
+~~~
+
+~~~
+# src/main/resources/application.properties
+
+spring.datasource.url=jdbc:mysql://localhost:3306/db_example
+spring.datasource.username=springuser
+spring.datasource.password=ThePassword
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+~~~
+
+### Application
+
+Return `rows` from mysql database table.
+
+https://github.com/minte9/spring-boot-pages/blob/85b5599816a027a62f6b0b77067c7b0b8d9a3cb5/jdbc_mysql/src/main/java/com/minte9/jdbc_mysql/App.java#L27-L52
+
+### Run
+
+Test and `run` the application.
+
+~~~
+mvn spring-boot:run
+
+http://localhost:8080/users
+    // [aaa, bbb]
+
+http://localhost:8080/users_json
+    // [{"email":"a@a.com","username":"aaa"}, ... }]
+~~~
+
+The `.jar` file is handy for deployment because it includes all the dependencies.
+
+~~~
+mvn package
+
+cd target/
+java -jar jdbc_mysql-0.0.1.jar 
+
+http://localhost:8080/users
+    // [aaa, bbb]
+~~~
