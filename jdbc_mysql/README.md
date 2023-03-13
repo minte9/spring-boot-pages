@@ -1,4 +1,3 @@
-
 # Java Spring-Boot Mysql
 
 ## Schema
@@ -91,4 +90,5 @@ http://localhost:8080/users
 https://www.codejava.net/frameworks/spring-boot/connect-to-mysql-database-examples  
 https://spring.io/guides/gs/relational-data-access  
 https://www.twilio.com/blog/beginner-mysql-database-java-spring-boot  
-https://www.codejava.net/frameworks/spring-boot/connect-to-oracle-database-examples
+https://www.codejava.net/frameworks/spring-boot/connect-to-oracle-database-examples  
+https://spring.io/blog/2014/03/07/deploying-spring-boot-applications  
