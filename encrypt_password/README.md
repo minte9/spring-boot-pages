@@ -10,7 +10,6 @@ Spring web application with `mysql` connection.
 	<artifactId>mysql-connector-java</artifactId>
 	<scope>runtime</scope>
 </dependency>
-
 <dependency>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-jdbc</artifactId>
@@ -19,7 +18,6 @@ Spring web application with `mysql` connection.
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-data-jdbc</artifactId>
 </dependency>
-
 <!--
 <dependency>
 	<groupId>com.oracle.database.jdbc</groupId>
