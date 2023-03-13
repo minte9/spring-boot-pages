@@ -32,17 +32,7 @@ https://github.com/minte9/spring-boot-pages/blob/3a669bd133eb725c03ebd7dcf4450b9
 
 Add `encrypted password` to application.properties.
 
-~~~
-// resources/application.properties
-
-spring.datasource.url = jdbc:mysql://localhost:3306/db_example
-spring.datasource.username = springuser
-spring.datasource.password = oKGQSuLmEKbssroQ7XhE2Dy5vKGk2Zd00yXV
-spring.datasource.driver-class-name = com.mysql.cj.jdbc.Driver
-
-// spring.datasource.key = environment_variable
-// spring.datasource.iv = environment_variable
-~~~
+https://github.com/minte9/spring-boot-pages/blob/42adbc00b9e2547b8d9339e6085c6188806cbc46/encrypt_password/src/main/resources/application.properties#L1-L6
 
 ### Decrypt
 
