@@ -43,8 +43,13 @@ spring init --build=maven jdbc_mysql
 	<artifactId>spring-boot-starter-data-jdbc</artifactId>
 </dependency>
 ~~~
+
+### Config
+
+Add `datasource` configuration properties.
+
 ~~~
-# src/main/resources/application.properties
+// src/main/resources/application.properties
 
 spring.datasource.url=jdbc:mysql://localhost:3306/db_example
 spring.datasource.username=springuser
