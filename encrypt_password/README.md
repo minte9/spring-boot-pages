@@ -59,11 +59,4 @@ https://github.com/minte9/spring-boot-pages/blob/3a669bd133eb725c03ebd7dcf4450b9
 ### Refrences
 
 https://www.baeldung.com/spring-boot-configure-data-source-programmatic
-<<<<<<< HEAD
 https://www.minte9.com/java/spring-boot-encrypt-password-1451
-=======
-
-### Web Page
-
-https://www.minte9.com/java/spring-boot-encrypt-password-1451
->>>>>>> 38129edf2c235541c3c5afce83966a058d9a37e8
