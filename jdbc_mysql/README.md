@@ -91,7 +91,7 @@ http://localhost:8080/users
 MySQL with Spring JDBC  
 https://www.codejava.net/frameworks/spring-boot/connect-to-mysql-database-examples  
 
-DBC with Spring 
+JDBC with Spring  
 https://spring.io/guides/gs/relational-data-access  
 
 Setup Mysql with Spring Boot  
