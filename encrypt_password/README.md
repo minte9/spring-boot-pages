@@ -6,24 +6,24 @@ Spring web application with `mysql` connection.
 
 ~~~
 <dependency>
-	<groupId>mysql</groupId>
-	<artifactId>mysql-connector-java</artifactId>
-	<scope>runtime</scope>
-</dependency>
-<dependency>
-	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-starter-jdbc</artifactId>
-</dependency>
-<dependency>
-	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-starter-data-jdbc</artifactId>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <scope>runtime</scope>
 </dependency>
 <!--
 <dependency>
-	<groupId>com.oracle.database.jdbc</groupId>
-	<artifactId>ojdbc8</artifactId>
+    <groupId>com.oracle.database.jdbc</groupId>
+    <artifactId>ojdbc8</artifactId>
 </dependency>
 -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-jdbc</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jdbc</artifactId>
+</dependency>
 ~~~
 
 ### Main
