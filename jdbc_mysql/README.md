@@ -1,4 +1,4 @@
-# Java Spring-Boot Mysql
+# Java Spring-Boot Jdbc Mysql
 
 ## Schema
 
