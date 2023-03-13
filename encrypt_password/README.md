@@ -56,3 +56,12 @@ GCM is `proven secure` in the concrete security model.
 ~~~
 #-- encrypt_password/AES_GCM.java --#
 ~~~
+
+
+### Refrences
+
+https://www.baeldung.com/spring-boot-configure-data-source-programmatic
+
+### Web Page
+
+https://www.minte9.com/java/spring-boot-encrypt-password-1451
