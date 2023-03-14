@@ -4,7 +4,7 @@
 
 Use `start.spring.io` to create a web project.
 
-~~~ java/com/minte9/quick_start/DemoApplication.java ~~~
+#-- java/com/minte9/quick_start/DemoApplication.java --#
 
 ### Build
 
