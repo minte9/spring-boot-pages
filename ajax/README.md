@@ -10,7 +10,6 @@ Create a new `Spring Web` project.
 	<artifactId>spring-boot-starter-web</artifactId>
 </dependency>
 ~~~
-
 https://github.com/minte9/spring-boot-pages/blob/62298f6091c88094c2b418c3aa3d191167225d04/ajax/src/main/java/com/minte9/ajax/App.java#L10-L17
 
 ### Client
