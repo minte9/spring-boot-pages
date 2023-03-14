@@ -4,7 +4,7 @@
 
 Create database `table schema` and add data.
 
-~~~
+~~~sql
 create database db_example;
 create user 'springuser'@'%' identified by 'ThePassword';
 grant all on db_example.* to 'springuser'@'%';
@@ -28,7 +28,7 @@ Start a `Spring Web` project and add dependencies to pom.xml
 ~~~
 spring init --build=maven jdbc_mysql
 ~~~
-~~~
+~~~xml
 <dependency>
 	<groupId>mysql</groupId>
 	<artifactId>mysql-connector-java</artifactId>
@@ -48,7 +48,7 @@ spring init --build=maven jdbc_mysql
 
 Add `datasource` configuration properties.
 
-~~~
+~~~sh
 // src/main/resources/application.properties
 
 spring.datasource.url=jdbc:mysql://localhost:3306/db_example
