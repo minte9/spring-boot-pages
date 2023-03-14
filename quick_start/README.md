@@ -8,7 +8,7 @@ https://github.com/minte9/spring-boot-pages/blob/6d82eb1f2067eb689f35e2fe7e4f66e
 
 ### Build
 
-The application build configuration is defined in `pom.xml`
+The application build configuration is defined in `pom.xml` 
 
 https://github.com/minte9/spring-boot-pages/blob/c650e862222dc8cdaef86bf9bccb22d219414bcf/quick_start/pom.xml#L1-L40
 
