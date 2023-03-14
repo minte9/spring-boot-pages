@@ -11,7 +11,7 @@ Create a new `Spring Web` project.
 </dependency>
 ~~~
 
-https://github.com/minte9/spring-boot-pages/blob/f4d172a0b5f1a7706a639a620921dc755b0337c9/ajax/src/main/java/com/minte9/ajax/App.java#L1-L19
+https://github.com/minte9/spring-boot-pages/blob/62298f6091c88094c2b418c3aa3d191167225d04/ajax/src/main/java/com/minte9/ajax/App.java#L10-L17
 
 ### Client
 
