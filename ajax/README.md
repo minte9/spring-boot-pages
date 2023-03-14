@@ -34,4 +34,4 @@ http://localhost:8080/
 
 https://spring.io/guides/gs/consuming-rest-jquery  
 https://spring.io/guides/gs/rest-service-cors  
-https://www.minte9.com/java/spring-boot-ajax-1310
+https://minte9.com/java/spring-boot-ajax-1310
