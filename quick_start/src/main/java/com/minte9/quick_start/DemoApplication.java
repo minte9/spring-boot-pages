@@ -6,7 +6,7 @@
  * by opening intializer on start.spring.io
  */
 
-package com.minte9.demo;
+package com.minte9.quick_start;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

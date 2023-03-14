@@ -1,3 +1,16 @@
+# Java Spring-Boot Quick Start
+
+## Controller
+
+Use `start.spring.io` to create a web project.
+
+#-- java/com/minte9/quick_start/DemoApplication.java --#
+
+### Build
+
+The application build configuration is defined in `pom.xml`
+
+~~~
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -41,3 +54,23 @@
 	</build>
 
 </project>
+~~~
+
+### Run
+
+Build and run the application using `Maven` and test embedded Apache Tomcat server.
+
+#-- 
+mvn spring-boot:run
+
+http://localhost:8080/hello
+    # Hello World
+
+mvn package # compile and build
+--#
+
+### References
+
+https://spring.io/quickstart  
+https://start.spring.io  
+https://www.geeksforgeeks.org/difference-between-spring-and-spring-boot  
