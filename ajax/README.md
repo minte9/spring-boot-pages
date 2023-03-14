@@ -34,8 +34,8 @@ mvn spring-boot:run
 
 http://localhost:8080/
 
-# Get current time (with Ajax): Start | Stop
-# 13:21:55
+// Get current time (with Ajax): Start | Stop
+// 13:21:55
 ~~~
 
 ## References
