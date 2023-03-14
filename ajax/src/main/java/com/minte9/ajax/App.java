@@ -1,7 +1,5 @@
 /**
- * Spring Boot Ajax App
- * 
- * spring init --build=maven --dependencies=web ajax 
+ * Spring Boot Web App (Ajax)
  */
 
 package com.minte9.ajax;
