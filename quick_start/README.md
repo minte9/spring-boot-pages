@@ -4,7 +4,7 @@
 
 Use `start.spring.io` to create a web project.
 
-#-- java/com/minte9/quick_start/DemoApplication.java --#
+~~~ java/com/minte9/quick_start/DemoApplication.java ~~~
 
 ### Build
 
@@ -60,14 +60,14 @@ The application build configuration is defined in `pom.xml`
 
 Build and run the application using `Maven` and test embedded Apache Tomcat server.
 
-#-- 
+~~~
 mvn spring-boot:run
 
 http://localhost:8080/hello
     # Hello World
 
 mvn package # compile and build
---#
+~~~
 
 ### References
 
