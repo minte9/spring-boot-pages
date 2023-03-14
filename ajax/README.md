@@ -38,7 +38,7 @@ http://localhost:8080/
 // 13:21:55
 ~~~
 
-## References
+### References
 
 https://spring.io/guides/gs/consuming-rest-jquery  
 https://spring.io/guides/gs/rest-service-cors  
