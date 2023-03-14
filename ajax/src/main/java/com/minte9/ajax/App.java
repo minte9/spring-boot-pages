@@ -1,3 +1,9 @@
+/**
+ * Spring Boot Ajax App
+ * 
+ * spring init --build=maven --dependencies=web ajax 
+ */
+
 package com.minte9.ajax;
 
 import org.springframework.boot.SpringApplication;
