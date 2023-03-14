@@ -1,5 +1,3 @@
-https://minte9.com/java/spring-boot-ajax-1310
-
 # Java Spring-Boot Ajax
 
 ## Ajax App
@@ -36,3 +34,4 @@ http://localhost:8080/
 
 https://spring.io/guides/gs/consuming-rest-jquery  
 https://spring.io/guides/gs/rest-service-cors  
+https://minte9.com/java/spring-boot-ajax-1310
