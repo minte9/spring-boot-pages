@@ -25,9 +25,6 @@ select * from users;
 
 Start a `Spring Web` project and add dependencies to pom.xml
 
-~~~
-spring init --build=maven jdbc_mysql
-~~~
 ~~~xml
 <dependency>
 	<groupId>mysql</groupId>
