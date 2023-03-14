@@ -12,7 +12,7 @@ Learn and Remember - [minte9.com/spring-boot](https://www.minte9.com/java/spring
 - [Security Auth](./security_auth/) 
 - [Command Line](./command_line/)
 - [Scheduled Task](./scheduled_task/)  
-- [Ajax App](./ajax/)  
+- [Ajax](./ajax/)  
 - [Jdbc Mysql](./jdbc_mysql/)  
 - [Encrypt Password](./encrypt_password/)  
 - [Https](./https/) 
