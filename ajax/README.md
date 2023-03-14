@@ -34,7 +34,9 @@ Test and `run` the application.
 mvn spring-boot:run
 
 http://localhost:8080/
-    # 15:56:30
+
+// Get current time (with Ajax): Start | Stop
+// 13:21:55
 ~~~
 
 ## References
