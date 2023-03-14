@@ -29,3 +29,9 @@ mvn spring-boot:run
 http://localhost:8080/
     # 15:56:30
 ~~~
+
+## References
+
+https://spring.io/guides/gs/consuming-rest-jquery  
+https://spring.io/guides/gs/rest-service-cors  
+https://www.minte9.com/java/spring-boot-ajax-1310
