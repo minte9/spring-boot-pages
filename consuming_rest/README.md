@@ -52,6 +52,6 @@ mvn spring-boot:run
 http://localhost:9090/getquote
   // {"id":1,"content":"Spring Boot makes stand alone Spring apps easy."}
 
-java -jar target/democonsumingrest-0.0.1.jar 
+java -jar target/consuming_rest-0.0.1.jar 
   // {"id":2,"content":"With Boot you deploy everywhere."}
 ~~~
