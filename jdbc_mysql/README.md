@@ -45,8 +45,8 @@ Start a `Spring Web` project and add dependencies to pom.xml
 
 Add `datasource` configuration properties.
 
-~~~sh
-// src/main/resources/application.properties
+~~~ini
+# src/main/resources/application.properties
 
 spring.datasource.url=jdbc:mysql://localhost:3306/db_example
 spring.datasource.username=springuser
