@@ -29,7 +29,7 @@ http://localhost:9090/getquote/2
 Start a new Spring Boot `Web` project on port 8080
 
 ~~~ini
-# /src/main/resources/application.properties
+# src/main/resources/application.properties
 
 server.port=8080
 ~~~
