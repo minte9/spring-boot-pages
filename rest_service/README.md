@@ -58,3 +58,10 @@ http://localhost:9090/quote/2
 // {"id":1,"content":"Spring Boot makes stand alone Spring apps easy."}
 // {"id":2,"content":"With Boot you deploy everywhere."}
 ~~~
+
+### References
+
+https://spring.io/guides/gs/rest-service/
+https://medium.com/@gautham/running-your-springboot-application-on-a-different-port-other-than-8080-2952729037f5
+https://spring.io/guides/gs/consuming-rest/
+https://www.minte9.com/java/spring-boot-rest-service-1303
