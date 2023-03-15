@@ -4,7 +4,7 @@
 
 Spring web application with `mysql` connection.
 
-~~~
+~~~xml
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
