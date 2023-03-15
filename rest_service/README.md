@@ -15,19 +15,19 @@ Simple RESTful `web service` with Spring on port 9090.
 
 The service will handle GET requests for `/greeting` and return JSON response.
 
-#-- java/com/minte9/rest_service/App.java --#
+https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3031ef36da/rest_service/src/main/java/com/minte9/rest_service/App.java#L14-L21
 
 ### Resource
 
 In Spring RESTful web services, HTTP requests are handled by a `resource controller.`
 
-#-- java/com/minte9/rest_service/GreetingController.java --#
+https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3031ef36da/rest_service/src/main/java/com/minte9/rest_service/GreetingController.java#L14-L29
 
 ### Representation
 
 To model the greeting representation, create a `resource representation class.` 
 
-#-- java/com/minte9/rest_service/Greeting.java --#
+https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3031ef36da/rest_service/src/main/java/com/minte9/rest_service/Greeting.java#L7-L25
 
 ### Port
 
