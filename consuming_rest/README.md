@@ -1,6 +1,6 @@
 # Java Spring-Boot Consuming Rest
 
-## Service API
+## Run Service
 
 Run `rest_service` in a separate terminal on port 9090.
 
@@ -41,7 +41,7 @@ Application class with `/request_quote` mapping.
 #-- java/com/minte9/consuming_rest/App.java --#
 
 
-### Tests
+### Test requests
 
 Build and run the application in `console` or browser.
 
