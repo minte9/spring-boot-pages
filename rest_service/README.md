@@ -19,7 +19,7 @@ https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3
 
 ### Resource
 
-In Spring RESTful web services, HTTP requests are handled by a `resource controller.`
+In Spring RESTful web services, HTTP requests are handled by a `resource controller`
 
 https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3031ef36da/rest_service/src/main/java/com/minte9/rest_service/GreetingController.java#L14-L29
 
