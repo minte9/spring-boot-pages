@@ -38,7 +38,7 @@ server.port=8080
 
 Application class with `/request_quote` mapping.
 
-#-- java/com/minte9/consuming_rest/App.java --#
+https://github.com/minte9/spring-boot-pages/blob/6842531db4f2385203379a75e23e922989fbf351/consuming_rest/src/main/java/com/minte9/consuming_rest/App.java#L22-L64
 
 
 ### Test requests
