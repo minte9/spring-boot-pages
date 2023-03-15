@@ -2,7 +2,7 @@
  * Resource Representation Class - Greeting
  */
 
-package com.minte9.demorest;
+package com.minte9.rest_service;
 
 class Greeting {
 

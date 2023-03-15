@@ -7,7 +7,7 @@
  * Use start.spring.io to create a new Spring Web project.
  */
 
-package com.minte9.demorest;
+package com.minte9.rest_service;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
