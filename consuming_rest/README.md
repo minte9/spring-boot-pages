@@ -61,4 +61,4 @@ java -jar target/consuming_rest-0.0.1.jar
 https://spring.io/guides/gs/consuming-rest  
 https://github.com/spring-guides/quoters  
 https://github.com/minte9/spring-boot-pages/blob/main/rest_service_quoters/src/main/java/org/springframework/quoters/QuoteController.java  
-https://www.minte9.com/java/spring-boot-consuming-rest-1384  
+https://minte9.com/java/spring-boot-consuming-rest-1384  
