@@ -14,8 +14,7 @@ https://github.com/minte9/spring-boot-pages/blob/62298f6091c88094c2b418c3aa3d191
 
 ### Client
 
-The `jQuery` module consumes the REST service.
-The `public/index.html` loads the client into the user's browser.
+The `index.html` loads into the user's browser the client that consume REST service.
 
 https://github.com/minte9/spring-boot-pages/blob/c64d1e4521a787e372b0c61fabc43f67380347fc/ajax/public/index.html#L1-L43
 
