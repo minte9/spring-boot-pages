@@ -13,7 +13,7 @@ Simple RESTful `web service` with Spring on port 9090.
 
 ### Application
 
-The service will handle GET requests for `/greeting` and return JSON response.
+The service will handle GET `requests` and return JSON response.
 
 https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3031ef36da/rest_service/src/main/java/com/minte9/rest_service/App.java#L14-L21
 
