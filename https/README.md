@@ -70,8 +70,8 @@ https://127.0.0.1:8443/hello
 If you already have `.crt and .key` files generated, you need to convert them.
 
 ~~~
-openssl pkcs12 -export -in certs/myserver.crt -inkey certs/myserver.key -out \
-     certs/myserver.p12 -name myserver
+openssl pkcs12 -export -in certs/myserver.crt -inkey certs/myserver.key \
+    -out certs/myserver.p12 -name myserver
 ~~~
 
 
