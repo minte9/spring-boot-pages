@@ -49,14 +49,12 @@ server.port=9090
 
 We can now `build adn run` the application and test the service.
 
-~~~
+~~~sh
 mvn spring-boot:run
 
-http://localhost:9090/quote/1
-http://localhost:9090/quote/2
+http://localhost:9090/quote/1 # {"id":1,"content":"Spring Boot ...
+http://localhost:9090/quote/2 # {"id":2,"content":"With Boot you ...
 
-// {"id":1,"content":"Spring Boot makes stand alone Spring apps easy."}
-// {"id":2,"content":"With Boot you deploy everywhere."}
 ~~~
 
 ### References
