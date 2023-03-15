@@ -41,7 +41,7 @@ Application class with `/request_quote` mapping.
 #-- java/com/minte9/consuming_rest/App.java --#
 
 
-### Test
+### Tests
 
 Build and run the application in `console` or browser.
 
