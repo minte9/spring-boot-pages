@@ -15,19 +15,19 @@ Simple RESTful `web service` with Spring on port 9090.
 
 The service will handle GET `requests` and return JSON response.
 
-https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3031ef36da/rest_service/src/main/java/com/minte9/rest_service/App.java#L14-L21
+https://github.com/minte9/spring-boot-pages/blob/e2e236445d2642da52beb07f241108e19b844f5d/rest_service/src/main/java/com/minte9/rest_service/App.java#L14-L20
 
 ### Resource
 
 In Spring RESTful web services, HTTP requests are handled by a `resource controller`
 
-https://github.com/minte9/spring-boot-pages/blob/63d90fff9ed14d6bdb7e5652d387afae2e668b27/rest_service/src/main/java/com/minte9/rest_service/QuoteController.java#L15-L35
+https://github.com/minte9/spring-boot-pages/blob/734e3a3d71aafb3cb63b4fbc08006484a6f1395c/rest_service/src/main/java/com/minte9/rest_service/QuoteController.java#L17-L39
 
 ### Model
 
 To model the quote representation, create a `resource representation` class. 
 
-https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3031ef36da/rest_service/src/main/java/com/minte9/rest_service/Quote.java#L7-L25
+https://github.com/minte9/spring-boot-pages/blob/322bf9636725bec8f829d9076673c89ac05133fa/rest_service/src/main/java/com/minte9/rest_service/Quote.java#L7-L24
 
 ### Port
 
