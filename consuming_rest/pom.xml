@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.minte9</groupId>
-	<artifactId>democonsumingrest</artifactId>
+	<artifactId>consuming_rest</artifactId>
 	<version>0.0.1</version>
-	<name>democonsumingrest</name>
+	<name>consuming_rest</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>

@@ -4,12 +4,12 @@
 
 package com.minte9.rest_service;
 
-class Greeting {
+class Quote {
 
-    private final long id;
+    private final Integer id;
     private final String content;
 
-    public Greeting(long id, String content) {
+    public Quote(Integer id, String content) {
         this.id = id;
         this.content = content;
     }

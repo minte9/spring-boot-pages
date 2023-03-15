@@ -21,13 +21,13 @@ https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3
 
 In Spring RESTful web services, HTTP requests are handled by a `resource controller`
 
-https://github.com/minte9/spring-boot-pages/blob/63d90fff9ed14d6bdb7e5652d387afae2e668b27/rest_service/src/main/java/com/minte9/rest_service/GreetingController.java#L15-L35
+https://github.com/minte9/spring-boot-pages/blob/63d90fff9ed14d6bdb7e5652d387afae2e668b27/rest_service/src/main/java/com/minte9/rest_service/QuoteController.java#L15-L35
 
-### Representation
+### Model
 
-To model the greeting representation, create a `resource representation class` 
+To model the quote representation, create a `resource representation` class. 
 
-https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3031ef36da/rest_service/src/main/java/com/minte9/rest_service/Greeting.java#L7-L25
+https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3031ef36da/rest_service/src/main/java/com/minte9/rest_service/Quote.java#L7-L25
 
 ### Port
 
@@ -46,9 +46,9 @@ We can now `build adn run` the application and test the service.
 ~~~
 mvn spring-boot:run
 
-http://localhost:9090/
-    # {"id":1,"content":"Hello World!"}
+http://localhost:9090/quote/1
+http://localhost:9090/quote/2
 
-http://localhost:9090/?name=User
-    # {"id":2,"content":"Hello User!"}
+// {"id":1,"content":"Spring Boot makes stand alone Spring apps easy."}
+// {"id":2,"content":"With Boot you deploy everywhere."}
 ~~~
