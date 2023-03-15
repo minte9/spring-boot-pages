@@ -5,7 +5,7 @@
 Run `rest_service` in a separate terminal on port 9090.
 
 ~~~
-cd rest_service
+cd rest_service/
 mvn spring-boot:run # start service
 
 http://localhost:9090
@@ -48,7 +48,7 @@ Change maven `compiler version`, if needed.
 
 Application class with `/request_quote` mapping.
 
-#-- consuming_rest/App.java --#
+#-- java/com/minte9/consuming_rest/App.java --#
 
 
 ### Test

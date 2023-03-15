@@ -45,11 +45,11 @@ public class App {
             "http://localhost:9090/quote/1", Object.class
         );
         return quote;
-            // {"id":1,"content":"Spring Boot makes stand alone Spring apps easy."}
+        // {"id":1,"content":"Spring Boot makes stand alone Spring apps easy."}
     }
 
     @Bean
-    public CommandLineRunner run(RestTemplate restTemplate) // Console (from target/)
+    public CommandLineRunner run(RestTemplate restTemplate) // Console .jar
         throws Exception {
 
             return args -> {
@@ -58,7 +58,7 @@ public class App {
                 );
 
                 System.out.println(quote);
-                    // {"id":2,"content":"With Boot you deploy everywhere."}
+                // {"id":2,"content":"With Boot you deploy everywhere."}
             };
     }
 }
