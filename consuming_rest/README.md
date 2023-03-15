@@ -45,7 +45,7 @@ https://github.com/minte9/spring-boot-pages/blob/6842531db4f2385203379a75e23e922
 
 Build and run the application in `console` or browser.
 
-~~~
+~~~sh
 cd consuming_rest/
 mvn spring-boot:run
 
