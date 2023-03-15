@@ -6,20 +6,16 @@ Run `rest_service` in a separate terminal on port 9090.
 
 ~~~sh
 cd rest_service/
-mvn spring-boot:run # start service
+mvn spring-boot:run
 
-http://localhost:9090
-  # Welcome! Use /quote/{id}
+http://localhost:9090 # Welcome! Use /quote/{id}
 ~~~
 
 The client app will retrive `quotes` from the REST web service.
 
 ~~~sh
-http://localhost:9090/getquote/1
-  # {"id":1,"content":"Spring Boot makes stand alone Spring apps easy."}
-
-http://localhost:9090/getquote/2
-  # {"id":2,"content":"With Boot you deploy everywhere."}
+http://localhost:9090/getquote/1 # {"id":1,"content":"Spring Boot makes ...
+http://localhost:9090/getquote/2 # {"id":2,"content":"With Boot you ...
 ~~~
 
 ### Client App
@@ -54,11 +50,11 @@ Build and run the application in `console` or browser.
 cd consuming_rest/
 mvn spring-boot:run
 
-http://localhost:9090/getquote
-  # {"id":1,"content":"Spring Boot makes stand alone Spring apps easy."}
+# Browser
+http://localhost:9090/getquote # {"id":1,"content":"Spring Boot makes ...
 
-java -jar target/consuming_rest-0.0.1.jar 
-  # {"id":2,"content":"With Boot you deploy everywhere."}
+# Console
+java -jar target/consuming_rest-0.0.1.jar # {"id":2,"content":"With Boot ...
 ~~~
 
 ### References

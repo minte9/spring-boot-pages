@@ -44,12 +44,11 @@ public class App {
         Object quote = rt.getForObject(
             "http://localhost:9090/quote/1", Object.class
         );
-        return quote;
-        // {"id":1,"content":"Spring Boot makes stand alone Spring apps easy."}
+        return quote; // {"id":1,"content":"Spring Boot makes ...
     }
 
     @Bean
-    public CommandLineRunner run(RestTemplate restTemplate) // Console .jar
+    public CommandLineRunner run(RestTemplate restTemplate) // Console
         throws Exception {
 
             return args -> {
@@ -57,8 +56,7 @@ public class App {
                     "http://localhost:9090/quote/2", Object.class
                 );
 
-                System.out.println(quote);
-                // {"id":2,"content":"With Boot you deploy everywhere."}
+                System.out.println(quote); // {"id":2,"content":"With Boot ...
             };
     }
 }
