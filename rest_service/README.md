@@ -46,9 +46,9 @@ We can now `build adn run` the application and test the service.
 ~~~
 mvn spring-boot:run
 
-http://localhost:9090/
+http://localhost:9090/greeting/
     # {"id":1,"content":"Hello World!"}
 
-http://localhost:9090/?name=User
+http://localhost:9090/greeting/?name=User
     # {"id":2,"content":"Hello User!"}
 ~~~
