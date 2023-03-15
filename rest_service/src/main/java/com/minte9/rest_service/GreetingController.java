@@ -18,6 +18,11 @@ public class GreetingController {
     private final AtomicLong counter = new AtomicLong();
 
     @GetMapping("/")
+    public String greeting() {
+        return "Welcome";
+    }
+
+    @GetMapping("/greeting")
     public Greeting greeting(
         @RequestParam(value = "name", defaultValue = "World") String name
     ) {
