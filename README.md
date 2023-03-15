@@ -6,7 +6,7 @@ Learn and Remember - [minte9.com/spring-boot](https://www.minte9.com/java/spring
 
 
 - [Quick start](./quick_start/) 
-- [Service](./rest_service/) 
+- [Rest Service](./rest_service/) 
 - [Client](./consuming_rest/) 
 - [Templates](./templates/) 
 - [Security Auth](./security_auth/) 
