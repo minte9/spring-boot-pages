@@ -4,7 +4,7 @@
 
 Create a new `Spring Web` project.
 
-~~~
+~~~xml
 <dependency>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-web</artifactId>
