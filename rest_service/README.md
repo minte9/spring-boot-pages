@@ -25,7 +25,7 @@ https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3
 
 ### Representation
 
-To model the greeting representation, create a `resource representation class.` 
+To model the greeting representation, create a `resource representation class` 
 
 https://github.com/minte9/spring-boot-pages/blob/5f15542aa09cc696e79eb62d0b88bd3031ef36da/rest_service/src/main/java/com/minte9/rest_service/Greeting.java#L7-L25
 
