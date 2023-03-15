@@ -21,5 +21,4 @@ class Quote {
     public String getContent() {
         return content;
     }
-
 }
