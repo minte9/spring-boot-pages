@@ -34,16 +34,6 @@ Start a new Spring Boot `Web` project on port 8080
 server.port=8080
 ~~~
 
-Change maven `compiler version`, if needed.
-
-~~~
-<parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.5.4</version>
-</parent>
-~~~
-
 ### Main
 
 Application class with `/request_quote` mapping.
