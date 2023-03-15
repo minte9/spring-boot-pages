@@ -1,6 +1,6 @@
 # Java Spring-Boot Consuming Rest
 
-## Run Service
+## REST Service
 
 Run `rest_service` in a separate terminal on port 9090.
 
@@ -12,9 +12,7 @@ http://localhost:9090
   # Welcome! Use /quote/{id}
 ~~~
 
-### Client App
-
-The application will retrive `quotes` from the REST web service.
+The client app will retrive `quotes` from the REST web service.
 
 ~~~sh
 http://localhost:9090/getquote/1
@@ -24,17 +22,24 @@ http://localhost:9090/getquote/2
   # {"id":2,"content":"With Boot you deploy everywhere."}
 ~~~
 
-### Run client
+### Client App
 
 Start a new Spring Boot `Web` project on port 8080
 
-~~~ini
-# src/main/resources/application.properties
-
-server.port=8080
+~~~xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-devtools</artifactId>
+  <scope>runtime</scope>
+  <optional>true</optional>
+</dependency>
 ~~~
 
-### Main
+### Mapping
 
 Application class with `/request_quote` mapping.
 
