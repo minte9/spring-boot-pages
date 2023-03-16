@@ -25,7 +25,7 @@ Spring web project with `Thymealf` and Spring Boot DevTools.
 
 The `HelloController` handle GET requests for /greeting.
 
-https://github.com/minte9/spring-boot-pages/blob/e341223f9f1f64b4f0bca391a9e919794174ef47/templates/src/main/java/com/minte9/templates/GreetingController.java#L13-L34
+https://github.com/minte9/spring-boot-pages/blob/0b928ccdabf7a1e5960f7d7657aa30046300df89/templates/src/main/java/com/minte9/templates/HelloController.java#L14-L41
 
 
 ### Templates
