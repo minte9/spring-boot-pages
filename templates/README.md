@@ -25,13 +25,13 @@ Add `starter thymeleaf` to pom.xml for template parsing.
 
 Spring web project with `Thymealf` and Spring Boot DevTools. 
 
-#-- java/src/minte9/webcontent/App.java --#
+#-- java/src/minte9/templates/App.java --#
 
 ### Controller
 
 The `GreetingController` handle GET requests for /greeting.
 
-#-- java/src/minte9/webcontent/GreetingController.java --#
+#-- java/src/minte9/templates/GreetingController.java --#
 
 
 ### Templates
