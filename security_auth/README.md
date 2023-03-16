@@ -15,7 +15,7 @@ With `security` we automatically get basic authentication.
 </dependency>
 ~~~
 
-### Main
+### Main 
 
 Spring web project with starter security and `thymeleaf` dependencies.
 
