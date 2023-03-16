@@ -21,7 +21,7 @@ Spring web project with starter security and `thymeleaf` dependencies.
 
 https://github.com/minte9/spring-boot-pages/blob/e2bcdedbe896c2d9be17ec51a0e85fa5dbb58e96/security_auth/src/main/java/com/minte9/security_auth/App.java#L9-L15
 
-### Configure
+### Mvc Config
 
 Configure Spring MVC and set `view controllers` and templates.
 
