@@ -56,7 +56,7 @@ spring.security.user.password={bcrypt}$2a$10$2wRXv3x28CiFAq966H93...
 
 ### Templates
 
-Add `login` form template.
+Add index and `user login` form template.
 
 https://github.com/minte9/spring-boot-pages/blob/e2bcdedbe896c2d9be17ec51a0e85fa5dbb58e96/security_auth/src/main/resources/templates/index.html#L1-L4
 
