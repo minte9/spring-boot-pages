@@ -20,7 +20,7 @@ public class GreetingController {
     
     /**
      * RequestParam binds the value of GET username
-     * into the name parameter of greeting() method
+     * into the name parameter of hello() method
      */
     @GetMapping("/hello")
     public String hello(
