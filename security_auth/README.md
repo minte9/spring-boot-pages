@@ -42,10 +42,9 @@ spring encodepassword mypass
 
 # {bcrypt}$2a$10$2wRXv3x28CiFAq966H93PeAvaRHKMF.ItkMC.CsPBdYTZ2xLO2sLy
 ~~~
-
-Add `encrypted password` in application properties.
-
 ~~~sh
+# src/resources/application.properties
+
 spring.security.user.name=myuser
 spring.security.user.password={bcrypt}$2a$10$2wRXv3x28CiFAq966H93...
 ~~~
