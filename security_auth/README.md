@@ -78,4 +78,4 @@ https://stackoverflow.com/questions/37285016/what-is-username-and-password-when-
 https://stackoverflow.com/questions/26905721/decode-the-bcrypt-encoded-password-in-spring-security-to-deactivate-user-account  
 https://howtoprogram.xyz/2016/08/28/install-spring-boot-command-line-interface-on-linux  
 https://docs.spring.io/spring-boot/docs/current/reference/html/cli.html  
-https://www.minte9.com/java/spring-boot-security-auth-1306  
+https://minte9.com/java/spring-boot-security-auth-1306  
