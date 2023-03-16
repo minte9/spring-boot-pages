@@ -21,11 +21,16 @@ Spring web project with starter security and `thymeleaf` dependencies.
 
 https://github.com/minte9/spring-boot-pages/blob/e2bcdedbe896c2d9be17ec51a0e85fa5dbb58e96/security_auth/src/main/java/com/minte9/security_auth/App.java#L9-L15
 
-### Mvc Config
+### Configure
 
 Configure Spring MVC and set `view controllers` and templates.
 
 https://github.com/minte9/spring-boot-pages/blob/e2bcdedbe896c2d9be17ec51a0e85fa5dbb58e96/security_auth/src/main/java/com/minte9/security_auth/MvcConfig.java#L10-L17
+
+Configure `security config`, allowing access to index
+
+#-- java/com/minte9.com/SecurityConfig.java --#
+
 
 ### Encrypt
 
