@@ -2,7 +2,7 @@
 
 ## Application
 
-Add `starter thymeleaf` to pom.xml for template parsing.
+Spring web project with `Thymealf` and Spring Boot DevTools. 
 
 ~~~xml
 <dependency>
@@ -20,12 +20,6 @@ Add `starter thymeleaf` to pom.xml for template parsing.
     <artifactId>spring-boot-starter-thymeleaf</artifactId>
 </dependency>
 ~~~
-
-### Main
-
-Spring web project with `Thymealf` and Spring Boot DevTools. 
-
-#-- java/com/minte9/templates/App.java --#
 
 ### Controller
 
