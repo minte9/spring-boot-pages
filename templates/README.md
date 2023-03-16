@@ -50,3 +50,9 @@ http://localhost:8080/hello/?username=John
 # Hello, guest!
 # Hello, John!
 ~~~
+
+### References
+
+https://spring.io/guides/gs/serving-web-content  
+https://spring.io/guides/gs/batch-processing/#_build_an_executable_jar  
+https://www.minte9.com/java/spring-boot-templates-1304  
