@@ -25,14 +25,14 @@ Spring web project with `Thymealf` and Spring Boot DevTools.
 
 The `GreetingController` handle GET requests for /greeting.
 
-#-- java/com/minte9/templates/GreetingController.java --#
+https://github.com/minte9/spring-boot-pages/blob/e341223f9f1f64b4f0bca391a9e919794174ef47/templates/src/main/java/com/minte9/templates/GreetingController.java#L13-L34
 
 
 ### Templates
 
 Thymeleaf parses the `resources/templates/hello.html` template.
 
-#-- resources/templates/hello.html --#
+https://github.com/minte9/spring-boot-pages/blob/e341223f9f1f64b4f0bca391a9e919794174ef47/templates/src/main/resources/templates/hello.html#L1-L10
 
 
 ### Run
