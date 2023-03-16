@@ -1,6 +1,6 @@
 # Java Spring-Boot Command Line
 
-## SPRING CLI
+## Cli
 
 Spring Boot CLI is a `command line` tool used to quickly develop a Spring application.
 
