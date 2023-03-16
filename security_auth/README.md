@@ -37,12 +37,12 @@ https://github.com/minte9/spring-boot-pages/blob/e47c47b9efb5b3b22ba7376245db66a
 
 Avoid storing raw password, `bcrypt` it with and Spring CLI.
 
-~~~
+~~~sh
 spring encodepassword mypass
 
 # {bcrypt}$2a$10$2wRXv3x28CiFAq966H93PeAvaRHKMF.ItkMC.CsPBdYTZ2xLO2sLy
 ~~~
-~~~
+~~~ini
 # src/resources/application.properties
 
 spring.security.user.name=myuser
