@@ -19,13 +19,13 @@ With `security` we automatically get basic authentication.
 
 Spring web project with starter security and `thymeleaf` dependencies.
 
-#-- java/com/minte9/security_auth/App.java --#
+https://github.com/minte9/spring-boot-pages/blob/e2bcdedbe896c2d9be17ec51a0e85fa5dbb58e96/security_auth/src/main/java/com/minte9/security_auth/App.java#L9-L15
 
 ### Configure
 
 Configure Spring MVC and set `view controllers` and templates.
 
-#-- java/com/minte9/security_auth/MvcConfig.java --# 
+https://github.com/minte9/spring-boot-pages/blob/e2bcdedbe896c2d9be17ec51a0e85fa5dbb58e96/security_auth/src/main/java/com/minte9/security_auth/MvcConfig.java#L10-L17
 
 ### Encrypt
 
@@ -52,7 +52,7 @@ spring.security.user.password={bcrypt}$2a$10$2wRXv3x28CiFAq966H93...
 
 Add `login` form template.
 
-#-- resources/templates/index.html --#
+https://github.com/minte9/spring-boot-pages/blob/e2bcdedbe896c2d9be17ec51a0e85fa5dbb58e96/security_auth/src/main/resources/templates/index.html#L1-L4
 
 ### Tests
 
