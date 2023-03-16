@@ -29,8 +29,7 @@ https://github.com/minte9/spring-boot-pages/blob/e2bcdedbe896c2d9be17ec51a0e85fa
 
 Configure `security` config, allowing access to index
 
-#-- java/com/minte9/security_auth/SecurityConfig.java --#
-
+https://github.com/minte9/spring-boot-pages/blob/e47c47b9efb5b3b22ba7376245db66aef18664cb/security_auth/src/main/java/com/minte9/security_auth/SecurityConfig.java#L17-L32
 
 ### Encrypt
 
