@@ -1,7 +1,10 @@
 /**
  * Spring Boot MVC Controller
  * The Controller handle GET requests and returns the name of 
- * the View responsible to render html content
+ * the View responsible to render html content.
+ * 
+ * Keep in mind that templates will not work in case that 
+ * you have a @RestController
  */
 
 package com.minte9.templates;
