@@ -69,3 +69,13 @@ http://localhost:8080/user
 # Welcome
 # Please sign in 
 ~~~
+
+### References
+
+https://spring.io/guides/gs/securing-web  
+https://docs.spring.io/spring-boot/docs/2.4.3/reference/htmlsingle#boot-features-security  
+https://stackoverflow.com/questions/37285016/what-is-username-and-password-when-starting-spring-boot-with-tomcat  
+https://stackoverflow.com/questions/26905721/decode-the-bcrypt-encoded-password-in-spring-security-to-deactivate-user-account  
+https://howtoprogram.xyz/2016/08/28/install-spring-boot-command-line-interface-on-linux  
+https://docs.spring.io/spring-boot/docs/current/reference/html/cli.html  
+https://www.minte9.com/java/spring-boot-security-auth-1306  
