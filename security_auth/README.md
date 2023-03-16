@@ -37,9 +37,9 @@ spring encodepassword mypass
 # {bcrypt}$2a$10$2wRXv3x28CiFAq966H93PeAvaRHKMF.ItkMC.CsPBdYTZ2xLO2sLy
 ~~~
 
-Add `encrypted password` in application properties.
+### Store Passwor
 
-### Store Password
+Add `encrypted password` in application properties.
 
 ~~~sh
 # src/main/resources/application.properties
