@@ -21,7 +21,8 @@ sprint init --list
 
 Compile and run `Groovy` source code with spring.
 
-#-- java/com/minte9/command_line/App.groovy --#
+https://github.com/minte9/spring-boot-pages/blob/4fcf610c508357e7fc2d3a9f81389b37bb79f29c/command_line/src/main/java/com/minte9/command_line/App.groovy#L1-L13
+
 ~~~sh
 spring run src/main/java/com/minte9/command_line/App.groovy
 
