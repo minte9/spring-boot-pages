@@ -2,7 +2,7 @@
  * Spring Boot Application
  */
 
-package com.minte9.auth;
+package com.minte9.security_auth;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
