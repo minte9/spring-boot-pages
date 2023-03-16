@@ -1,6 +1,6 @@
 # Java Spring-Boot Templates
 
-## Dependencies
+## Application
 
 Add `starter thymeleaf` to pom.xml for template parsing.
 
@@ -21,7 +21,7 @@ Add `starter thymeleaf` to pom.xml for template parsing.
 </dependency>
 ~~~
 
-### Application
+### Main
 
 Spring web project with `Thymealf` and Spring Boot DevTools. 
 
@@ -36,7 +36,7 @@ The `GreetingController` handle GET requests for /greeting.
 
 ### Templates
 
-Thymeleaf parses the `hello.html` template.
+Thymeleaf parses the `resources/templates/hello.html` template.
 
 #-- resources/templates/hello.html --#
 
@@ -50,7 +50,7 @@ mvn spring-boot:run
 
 http://localhost:8080
 http://localhost:8080/hello
-http://localhost:8080/hello?username=John
+http://localhost:8080/hello/?username=John
 
 # Welcome!
 # Hello, guest!
