@@ -5,6 +5,7 @@ Welcome!
 </pre>
 
 <br>
-<form th:if="${#httpServletRequest.remoteUser != null}" th:action="@{/logout}" method="post">
+<form th:if="${#httpServletRequest.remoteUser != null}" 
+      th:action="@{/logout}" method="post">
     <input type="submit" value="Sign Out"/>
 </form>
