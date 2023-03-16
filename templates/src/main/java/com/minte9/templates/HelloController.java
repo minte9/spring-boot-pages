@@ -1,7 +1,7 @@
 /**
  * Spring Boot MVC Controller
- * The GreetingController handle GET requests for /greeting
- * Returns the name of the View responsible to render html content
+ * The Controller handle GET requests and returns the name of 
+ * the View responsible to render html content
  */
 
 package com.minte9.templates;
