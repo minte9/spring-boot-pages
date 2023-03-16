@@ -62,8 +62,8 @@ Test `login` by accesing app entry points.
 mvn spring-boot:run
 
 http://localhost:8080/
-http://localhost:8080/hello
+http://localhost:8080/user
 
-# Please sign in 
+# Welcome
 # Please sign in 
 ~~~
