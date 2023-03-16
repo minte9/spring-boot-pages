@@ -33,7 +33,7 @@ Configure `security` config, allowing access to index
 
 https://github.com/minte9/spring-boot-pages/blob/e47c47b9efb5b3b22ba7376245db66aef18664cb/security_auth/src/main/java/com/minte9/security_auth/SecurityConfig.java#L17-L32
 
-### Encrypt
+### Store Password
 
 Avoid storing raw password, `bcrypt` it with and Spring CLI.
 
@@ -43,13 +43,9 @@ spring encodepassword mypass
 # {bcrypt}$2a$10$2wRXv3x28CiFAq966H93PeAvaRHKMF.ItkMC.CsPBdYTZ2xLO2sLy
 ~~~
 
-### Store Password
-
 Add `encrypted password` in application properties.
 
 ~~~sh
-# src/main/resources/application.properties
-
 spring.security.user.name=myuser
 spring.security.user.password={bcrypt}$2a$10$2wRXv3x28CiFAq966H93...
 ~~~
