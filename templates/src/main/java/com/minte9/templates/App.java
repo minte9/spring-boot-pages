@@ -4,7 +4,7 @@
  * Dependencies Spring Web, Thymealf and Spring Boot DevTools
  */
 
-package com.minte9.webcontent;
+package com.minte9.templates;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
