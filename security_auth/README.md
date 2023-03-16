@@ -39,6 +39,8 @@ spring encodepassword mypass
 
 Add `encrypted password` in application properties.
 
+### Store Password
+
 ~~~sh
 # src/main/resources/application.properties
 
