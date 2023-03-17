@@ -47,6 +47,8 @@ spring encodepassword mypass
 
 spring.security.user.name=myuser
 spring.security.user.password={bcrypt}$2a$10$2wRXv3x28CiFAq966H93...
+
+server.servlet.context-path=/myapp
 ~~~
 
 ### Templates
@@ -63,8 +65,8 @@ Test `login` by accesing app entry points.
 ~~~sh
 mvn spring-boot:run
 
-http://localhost:8080/
-http://localhost:8080/user
+http://localhost:8080/myapp
+http://localhost:8080/myapp/user
 
 # Welcome
 # Please sign in 

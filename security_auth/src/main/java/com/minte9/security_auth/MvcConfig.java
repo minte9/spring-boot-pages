@@ -9,7 +9,7 @@
  * 
  * In general, using @GetMapping annotations in your controller 
  * is the more common and flexible approach, but defining view controllers 
- * can be a useful tool in certain situations.
+ * can be a useful tool in certain situations. 
  */
 
 package com.minte9.security_auth;
