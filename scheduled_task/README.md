@@ -17,13 +17,13 @@ Initialize a spring new project and add `awaitility` library as dependency in po
 
 Enable scheduling in you App with `@EnableScheduling` annotation.
 
-#-- java/com/minte9/scheduled_task/App.java --# 
+https://github.com/minte9/spring-boot-pages/blob/02bd62b3fbab6baf1e0edcf7077a8bb0571bbaa7/scheduled_task/src/main/java/com/minte9/scheduled_task/App.java#L6-L14
 
 ### Task
 
 Create you `component` class to manage scheduled tasks.
 
-#-- java/com/minte9/scheduled_task/Task.java --# 
+https://github.com/minte9/spring-boot-pages/blob/02bd62b3fbab6baf1e0edcf7077a8bb0571bbaa7/scheduled_task/src/main/java/com/minte9/scheduled_task/Task.java#L7-L19
 
 ### Run
 
