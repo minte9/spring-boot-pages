@@ -36,3 +36,8 @@ mvn spring-boot:run
 # Time is: 17:36:25
 # Time is: 17:36:26
 ~~~
+
+### References
+
+https://spring.io/guides/gs/scheduling-tasks  
+https://www.minte9.com/java/spring-boot-scheduled-task-1308  
