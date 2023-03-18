@@ -21,6 +21,7 @@ Learn and Remember - [minte9.com/spring-boot](https://www.minte9.com/java/spring
 
 ~~~sh
 git clone https://github.com/minte9/spring-boot-pages.git
+cd spring-boot-pages/
 ~~~
 
 ## Updates
