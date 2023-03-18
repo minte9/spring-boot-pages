@@ -47,3 +47,4 @@ https://repo.spring.io/ui/native/release/org/springframework/boot/spring-boot-cl
 https://howtoprogram.xyz/2016/08/28/install-spring-boot-command-line-interface-on-linux  
 https://docs.spring.io/spring-boot/docs/current/reference/html/cli.html  
 https://github.com/spring-projects/spring-boot/tree/v2.5.4/spring-boot-project/spring-boot-cli/samples  
+https://minte9.com/java/spring-boot-command-line-1307  
