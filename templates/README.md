@@ -55,4 +55,4 @@ http://localhost:8080/hello/?username=John
 
 https://spring.io/guides/gs/serving-web-content  
 https://spring.io/guides/gs/batch-processing/#_build_an_executable_jar  
-https://www.minte9.com/java/spring-boot-templates-1304  
+https://minte9.com/java/spring-boot-templates-1304  
