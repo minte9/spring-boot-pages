@@ -96,3 +96,4 @@ https://spring.io/guides/gs/relational-data-access
 https://www.twilio.com/blog/beginner-mysql-database-java-spring-boot  
 https://www.codejava.net/frameworks/spring-boot/connect-to-oracle-database-examples  
 https://spring.io/blog/2014/03/07/deploying-spring-boot-applications  
+https://minte9.com/java/spring-boot-jdbc-mysql-1450  
