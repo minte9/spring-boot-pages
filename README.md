@@ -27,5 +27,6 @@ cd spring-boot-pages/
 ## Updates
 
 ~~~sh
+cd spring-boot-pages/
 git pull origin main
 ~~~
