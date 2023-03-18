@@ -40,4 +40,4 @@ mvn spring-boot:run
 ### References
 
 https://spring.io/guides/gs/scheduling-tasks  
-https://www.minte9.com/java/spring-boot-scheduled-task-1308  
+https://minte9.com/java/spring-boot-scheduled-task-1308  
