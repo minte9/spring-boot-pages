@@ -42,9 +42,11 @@ public class AppRestController {
 		}
 
 		return user;
-		
 	}
 
+	/**
+	 * Method that builds tokens
+	 */
 	private String getJWTToken(String username) {
 		String secretKey = "myTokenSecretKey";
 		List<GrantedAuthority> grantedAuthorities = AuthorityUtils
