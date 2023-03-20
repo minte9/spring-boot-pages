@@ -31,7 +31,17 @@ Web Spring boot application with `jjwt` dependency.
 
 The client uses token to access the `protected` resources.
 
-https://github.com/minte9/spring-boot-pages/blob/10696a0c9df4b851991d08ef3da14c1288ad2c55/jwt/hello.sh#L1-L9
+~~~sh
+URL='http://localhost:8080/token?user=myuser&password=mypass'
+RESPONSE=$(curl -s -X POST -H "Content-Type: application/json" $URL)
+
+TOKEN=$(echo $RESPONSE | jq -r '.token')
+echo $TOKEN
+    # Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dG...
+
+curl -H "Authorization: Bearer $TOKEN" http://localhost:8080/hello
+    # Hello World
+~~~
 
 ### Controller
 
