@@ -6,7 +6,6 @@
  * 
  * Token authentication is more secure than session authentication 
  * because a token cannot be tampered with.
- * 
  */
 
 package com.minte9.jwt;
@@ -36,10 +35,11 @@ public class JWTAuthorizationFilter extends OncePerRequestFilter {
 	private final String SECRET = "myTokenSecretKey";
 
 	/**
-	 * Override of the doFilterInternal method
-	 * It intercepts HTTP requests and performs JWT token authentication. 
+	 * Intercept HTTP requests and performs JWT token authentication. 
+	 * 
 	 * If the token is valid, it sets up Spring authentication by setting 
 	 * the security context with the authenticated user's information. 
+	 * 
 	 * If the token is invalid, it clears the authentication context. 
 	 * If an exception occurs during validation, it returns a 403
 	 */
@@ -70,6 +70,13 @@ public class JWTAuthorizationFilter extends OncePerRequestFilter {
 		}
 	}	
 
+	/**
+	 * Extract the JWT token from the HTTP request header and parses it 
+	 * to retrieve the token's claims. 
+	 * 
+	 * It returns the token's claims after validating the token's signature
+	 * using the application's secret key.
+	 */
 	private Claims validateToken(HttpServletRequest request) {
 		String jwtToken = request.getHeader(HEADER).replace(PREFIX, "");
 		JwtParser jwtParser = Jwts.parser();
@@ -79,9 +86,8 @@ public class JWTAuthorizationFilter extends OncePerRequestFilter {
 	}
 
 	/**
-	 * Authentication method in Spring flow
-	 * 
-	 * @param claims
+	 * Set up Spring authentication instance with the authenticated 
+	 * user's details and setting it in the security context.
 	 */
 	private void setUpSpringAuthentication(Claims claims) {
 		@SuppressWarnings("unchecked")
@@ -98,6 +104,10 @@ public class JWTAuthorizationFilter extends OncePerRequestFilter {
 
 	}
 
+	/**
+	 * Checks if the Authorization header of the HTTP request contains 
+	 * a JWT token with the correct Bearer prefix.
+	 */
 	private boolean checkJWTToken(
 			HttpServletRequest request, 
 			HttpServletResponse res) {
