@@ -25,25 +25,25 @@ Web Spring boot application with `jjwt` dependency.
 	</dependency>
 <dependencies>
 ~~~
-#-- java/com/minte9/jwt/App.java --#
+https://github.com/minte9/spring-boot-pages/blob/8efa4048e9f52eb597d96ffe402e2fe18b504d13/jwt/src/main/java/com/minte9/jwt/App.java#L6-L12
 
 ### Controller
 
 REST controller that implements the auth with `username/password`.
 
-#-- java/com/minte9/jwt/AppRestController.java --#
+https://github.com/minte9/spring-boot-pages/blob/8efa4048e9f52eb597d96ffe402e2fe18b504d13/jwt/src/main/java/com/minte9/jwt/AppRestController.java#L30-L78
 
 ### Config
 
 Calls to `/user` are allowed, but all other calls require authentication.
 
-#-- java/com/minte9/jwt/AppSecurityConfig.java --#
+https://github.com/minte9/spring-boot-pages/blob/8efa4048e9f52eb597d96ffe402e2fe18b504d13/jwt/src/main/java/com/minte9/jwt/AppSecurityConfig.java#L20-L35
 
 ### Authorization
 
 Implement the autorization process with `JWTAuthorizationFilter` class.
 
-#-- java/com/minte9/jwt/JWTAuthorizationFilter.java --#
+https://github.com/minte9/spring-boot-pages/blob/8efa4048e9f52eb597d96ffe402e2fe18b504d13/jwt/src/main/java/com/minte9/jwt/JWTAuthorizationFilter.java#L31-L121
 
 ### Token
 
