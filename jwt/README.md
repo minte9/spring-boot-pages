@@ -45,7 +45,7 @@ Implement the autorization process with `JWTAuthorizationFilter` class.
 
 #-- java/com/minte9/jwt/JWTAuthorizationFilter.java --#
 
-### Token auth
+### Token
 
 The client uses token to access the `protected` resources.
 
