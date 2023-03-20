@@ -53,7 +53,8 @@ https://github.com/minte9/spring-boot-pages/blob/0b197caff078c6e303a11481a7cb239
 
 ### References
 
-https://www.educative.io/answers/session-based-authentication-vs-token-based-authentication
-https://blog.softtek.com/en/token-based-api-authentication-with-spring-and-jwt
-https://github.com/sebascastillo89/jwtDemo/tree/master/src/main/java/es/softtek/jwtDemo
-https://minte9.com/ubuntu/tools-webservices-1453
+https://www.educative.io/answers/session-based-authentication-vs-token-based-authentication  
+https://blog.softtek.com/en/token-based-api-authentication-with-spring-and-jwt  
+https://github.com/sebascastillo89/jwtDemo/tree/master/src/main/java/es/softtek/jwtDemo  
+https://minte9.com/ubuntu/tools-webservices-1453  
+https://www.minte9.com/java/spring-boot-jwt-1454  
