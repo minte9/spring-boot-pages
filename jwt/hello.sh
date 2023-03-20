@@ -1,10 +1,7 @@
-#!/bin/sh
-
 URL='http://localhost:8080/token?user=myuser&password=mypass'
-
 RESPONSE=$(curl -s -X POST -H "Content-Type: application/json" $URL)
-TOKEN=$(echo $RESPONSE | jq -r '.token')
 
+TOKEN=$(echo $RESPONSE | jq -r '.token')
 echo $TOKEN
     # Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dG...
 
