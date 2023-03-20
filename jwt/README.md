@@ -2,7 +2,7 @@
 
 ## App
 
-Web Spring boot application with `jwt` dependency.
+Web Spring boot application with `jjwt` dependency.
 
 ~~~xml
 <dependencies>
