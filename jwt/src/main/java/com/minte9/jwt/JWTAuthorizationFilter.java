@@ -36,12 +36,12 @@ public class JWTAuthorizationFilter extends OncePerRequestFilter {
 	private final String SECRET = "myTokenSecretKey";
 
 	/**
-	 * Override of the doFilterInternal method in the OncePerRequestFilter class. 
+	 * Override of the doFilterInternal method
 	 * It intercepts HTTP requests and performs JWT token authentication. 
 	 * If the token is valid, it sets up Spring authentication by setting 
-	 * the SecurityContextHolder context with the authenticated user's information. 
+	 * the security context with the authenticated user's information. 
 	 * If the token is invalid, it clears the authentication context. 
-	 * If an exception occurs during token validation, it returns a 403 Forbidden.
+	 * If an exception occurs during validation, it returns a 403
 	 */
 	@Override
 	protected void doFilterInternal(
