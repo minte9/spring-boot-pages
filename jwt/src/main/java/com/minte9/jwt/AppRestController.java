@@ -47,7 +47,7 @@ public class AppRestController {
 		String envPass = env.getProperty("spring.security.user.password");
 
 		if(username.equals(envUser) && pwd.equals(envPass)) {
-			String token = getJWTToken(username);
+			String token = getJWTToken(username); // Look Here
 			user.setToken(token);
 		}
 
@@ -64,7 +64,7 @@ public class AppRestController {
 		
 		String token = Jwts
 				.builder()
-				.setId("softtekJWT")
+				.setId("minte9JWT")
 				.setSubject(username)
 				.claim("authorities", grantedAuthorities.stream()
 						.map(GrantedAuthority::getAuthority)
