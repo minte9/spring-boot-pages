@@ -1,3 +1,14 @@
+/**
+ * JWT Authorization
+ * 
+ * JSON Web Token is a JSON open source standard for creating access tokens 
+ * that allow us to secure communications between client and server.
+ * 
+ * Token authentication is more secure than session authentication 
+ * because a token cannot be tampered with.
+ * 
+ */
+
 package com.minte9.jwt;
 
 import java.io.IOException;

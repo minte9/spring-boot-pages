@@ -1,3 +1,11 @@
+/**
+ * REST Controller
+ * 
+ * In real-life applciations will have three servers: our API, 
+ * authentication sever, authorization server
+ * 
+ * As demo, we can implement all three functionalities in a single application
+ */
 package com.minte9.jwt;
 
 import java.util.Date;
@@ -28,7 +36,9 @@ public class AppRestController {
 	}
 
 	@PostMapping("/token")
-	public User genToken(@RequestParam("user") String username, @RequestParam("password") String pwd) {
+	public User genToken(
+			@RequestParam("user") String username, 
+			@RequestParam("password") String pwd) {
 		
 		User user = new User();	
 		user.setUser(username);
@@ -61,7 +71,8 @@ public class AppRestController {
 						.collect(Collectors.toList()))
 				.setIssuedAt(new Date(System.currentTimeMillis()))
 				.setExpiration(new Date(System.currentTimeMillis() + 600000))
-				.signWith(SignatureAlgorithm.HS512, secretKey.getBytes()).compact();
+				.signWith(SignatureAlgorithm.HS512, secretKey.getBytes())
+				.compact();
 
 		return "Bearer " + token;
 	}
