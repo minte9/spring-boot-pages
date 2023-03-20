@@ -1,5 +1,12 @@
 /**
  * JWT Authorization Security Configuration
+ * 
+ * Extend WebSecurityConfigurerAdapter class to provide 
+ * custom security configuration.
+ * 
+ * Add JWT authorization filter after UsernamePasswordAuthenticationFilter.
+ * Allow unauthenticated access to /token POST requests.
+ * Require authentication for all other requests.
  */
 
 package com.minte9.jwt;
@@ -19,7 +26,7 @@ class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http.csrf().disable()
             .addFilterAfter(
                 new JWTAuthorizationFilter(), 
-                UsernamePasswordAuthenticationFilter.class
+                UsernamePasswordAuthenticationFilter.class // Look Here
             )
             .authorizeRequests()
             .antMatchers(HttpMethod.POST, "/token").permitAll()

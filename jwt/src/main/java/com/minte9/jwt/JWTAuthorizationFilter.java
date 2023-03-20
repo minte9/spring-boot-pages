@@ -1,7 +1,7 @@
 /**
  * JWT Authorization
  * 
- * JSON Web Token is a JSON open source standard for creating access tokens 
+ * JSON Web Token is an open source standard for creating access tokens 
  * that allow us to secure communications between client and server.
  * 
  * Token authentication is more secure than session authentication 
@@ -14,17 +14,14 @@ package com.minte9.jwt;
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
-
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import org.springframework.security.authentication.*;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.filter.OncePerRequestFilter;
-
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.JwtParser;
@@ -38,6 +35,14 @@ public class JWTAuthorizationFilter extends OncePerRequestFilter {
 	private final String PREFIX = "Bearer ";
 	private final String SECRET = "myTokenSecretKey";
 
+	/**
+	 * Override of the doFilterInternal method in the OncePerRequestFilter class. 
+	 * It intercepts HTTP requests and performs JWT token authentication. 
+	 * If the token is valid, it sets up Spring authentication by setting 
+	 * the SecurityContextHolder context with the authenticated user's information. 
+	 * If the token is invalid, it clears the authentication context. 
+	 * If an exception occurs during token validation, it returns a 403 Forbidden.
+	 */
 	@Override
 	protected void doFilterInternal(
 			HttpServletRequest request, 
