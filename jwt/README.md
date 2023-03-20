@@ -4,7 +4,7 @@
 
 Web Spring boot application with `jwt` dependency.
 
-~~~
+~~~xml
 <dependencies>
 	<dependency>
 		<groupId>org.springframework.boot</groupId>
