@@ -27,22 +27,6 @@ Web Spring boot application with `jjwt` dependency.
 ~~~
 #-- java/com/minte9/jwt/App.java --#
 
-### Token auth
-
-The client uses token to access the `protected` resources.
-
-~~~sh
-URL='http://localhost:8080/token?user=myuser&password=mypass'
-RESPONSE=$(curl -s -X POST -H "Content-Type: application/json" $URL)
-
-TOKEN=$(echo $RESPONSE | jq -r '.token')
-echo $TOKEN
-    # Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dG...
-
-curl -H "Authorization: Bearer $TOKEN" http://localhost:8080/hello
-    # Hello World
-~~~
-
 ### Controller
 
 REST controller that implements the auth with `username/password`.
@@ -60,6 +44,22 @@ Calls to `/user` are allowed, but all other calls require authentication.
 Implement the autorization process with `JWTAuthorizationFilter` class.
 
 #-- java/com/minte9/jwt/JWTAuthorizationFilter.java --#
+
+### Token auth
+
+The client uses token to access the `protected` resources.
+
+~~~sh
+URL='http://localhost:8080/token?user=myuser&password=mypass'
+RESPONSE=$(curl -s -X POST -H "Content-Type: application/json" $URL)
+
+TOKEN=$(echo $RESPONSE | jq -r '.token')
+echo $TOKEN
+    # Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dG...
+
+curl -H "Authorization: Bearer $TOKEN" http://localhost:8080/hello
+    # Hello World
+~~~
 
 ### References
 
