@@ -2,7 +2,7 @@
 
 ## App
 
-Web Spring application with `jjwt` dependency.
+Web Spring application with `token auth`, jjwt dependency.
 
 ~~~xml
 <dependencies>
