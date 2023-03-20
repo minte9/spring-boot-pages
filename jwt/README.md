@@ -31,7 +31,7 @@ Web Spring boot application with `jwt` dependency.
 
 The client uses that token to access the `protected` resources.
 
-#-- hello.sh --#
+#-- ../../hello.sh --#
 
 ### Controller
 
