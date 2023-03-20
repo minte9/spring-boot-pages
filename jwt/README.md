@@ -29,7 +29,7 @@ Web Spring boot application with `jjwt` dependency.
 
 ### Token auth
 
-The client uses that token to access the `protected` resources.
+The client uses token to access the `protected` resources.
 
 #-- ../../hello.sh --#
 
