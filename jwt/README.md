@@ -49,19 +49,7 @@ Implement the autorization process with `JWTAuthorizationFilter` class.
 
 The client uses token to access the `protected` resources.
 
-~~~sh
-curl http://localhost:8080/hello
-    # Access denied
-
-URL='http://localhost:8080/token?user=myuser&password=mypass'
-RESPONSE=$(curl -s -X POST -H "Content-Type: application/json" $URL)
-TOKEN=$(echo $RESPONSE | jq -r '.token')
-echo $TOKEN
-    # Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dG...
-
-curl -H "Authorization: Bearer $TOKEN" http://localhost:8080/hello
-    # Hello World
-~~~
+https://github.com/minte9/spring-boot-pages/blob/0b197caff078c6e303a11481a7cb239addc72c03/jwt/hello.sh#L1-L11
 
 ### References
 
