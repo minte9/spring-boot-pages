@@ -46,8 +46,8 @@ public class AppRestController {
 		String envUser = env.getProperty("spring.security.user.name");
 		String envPass = env.getProperty("spring.security.user.password");
 
-		if(username.equals(envUser) && pwd.equals(envPass)) {
-			String token = getJWTToken(username); // Look Here
+		if(username.equals(envUser) && pwd.equals(envPass)) { // Look Here
+			String token = getJWTToken(username);
 			user.setToken(token);
 		}
 
