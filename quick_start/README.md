@@ -71,5 +71,5 @@ mvn package # compile and build
 https://spring.io/quickstart  
 https://start.spring.io  
 https://geeksforgeeks.org/difference-between-spring-and-spring-boot  
-https://minte9.com/java/maven-demo-1309
-https://minte9.com/java/spring-boot-quick-start-1302  
+https://minte9.com/java/maven-demo-1309  
+https://minte9.com/java/spring-boot-quick-start-1302   
