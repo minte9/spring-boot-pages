@@ -42,7 +42,6 @@ public class AppRestController {
 		
 		User user = new User();	
 		user.setUser(username);
-
 		String envUser = env.getProperty("spring.security.user.name");
 		String envPass = env.getProperty("spring.security.user.password");
 
