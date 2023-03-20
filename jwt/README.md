@@ -57,4 +57,4 @@ https://www.educative.io/answers/session-based-authentication-vs-token-based-aut
 https://blog.softtek.com/en/token-based-api-authentication-with-spring-and-jwt  
 https://github.com/sebascastillo89/jwtDemo/tree/master/src/main/java/es/softtek/jwtDemo  
 https://minte9.com/ubuntu/tools-webservices-1453  
-https://www.minte9.com/java/spring-boot-jwt-1454  
+https://minte9.com/java/spring-boot-jwt-1454  
