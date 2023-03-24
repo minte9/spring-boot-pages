@@ -20,7 +20,7 @@ Web Spring application.
 
 Send a `post request` to an api entry point.
 
-#-- App.java --#
+#-- java/com/minte9/post_request/App.java --#
 
 
 ### References
