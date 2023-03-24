@@ -20,7 +20,7 @@ Create a `web` Spring application.
 
 Send a `post request` to an api entry point.
 
-#-- java/com/minte9/post_request/App.java --#
+https://github.com/minte9/spring-boot-pages/blob/4b6568b125087c717b9cce91f18547f5dc8caaee/post_request/src/main/java/com/minte9/post_request/App.java#L33-L69
 
 
 ### References
