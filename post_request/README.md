@@ -2,7 +2,7 @@
 
 ## App
 
-Web Spring application.
+Create a `web` Spring application.
 
 ~~~xml
 <dependency>
