@@ -1,9 +1,8 @@
 /**
- * Spring Boot is the most popular way to start Spring projects.
- * Spring Boot is built on top of the spring framework.
- *
- * Start by creating a new Spring Web project ... 
- * by opening intializer on start.spring.io
+ * REST Api POST request
+ * 
+ * Request: http://localhost:8080
+ * Response: http://localhost:8080/post_page
  */
 
 package com.minte9.post_request;
