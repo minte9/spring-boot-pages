@@ -25,6 +25,6 @@ Send a `post request` to an api entry point.
 
 ### References
 
-https://stackoverflow.com/questions/3324717/sending-http-post-request-in-java
-https://reqbin.com/req/ala1tavu/sample-api-post-request
-https://reqbin.com/req/v0crmky0/rest-api-post-example
+https://stackoverflow.com/questions/3324717/sending-http-post-request-in-java  
+https://reqbin.com/req/ala1tavu/sample-api-post-request  
+https://reqbin.com/req/v0crmky0/rest-api-post-example  
