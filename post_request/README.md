@@ -16,7 +16,7 @@ Create a `web` Spring application.
 </dependency>
 ~~~
 
-### POST
+### Post
 
 Send a post request to `/post_page` API entry point.
 
