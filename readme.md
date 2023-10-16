@@ -1,4 +1,4 @@
-# Spring Boot 
+# Spring Boot
 
 - [Quick start](./guides/quick_start/) 
 - [Rest Service](./guides/rest_service/) 
