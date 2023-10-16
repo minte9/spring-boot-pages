@@ -1,18 +1,18 @@
-# Spring Boot
+# Spring Boot 
 
-- [Quick start](./quick_start/) 
-- [Rest Service](./rest_service/) 
-- [Consuming Rest](./consuming_rest/) 
-- [Templates](./templates/) 
-- [Security Auth](./security_auth/) 
-- [Command Line](./command_line/)
-- [Scheduled Task](./scheduled_task/)  
-- [Ajax](./ajax/)  
-- [Jdbc Mysql](./jdbc_mysql/)  
-- [Encrypt Password](./encrypt_password/)  
-- [Https](./https/) 
-- [Jwt](./jwt/) 
-- [Post Request](./post_request/) 
+- [Quick start](./guides/quick_start/) 
+- [Rest Service](./guides/rest_service/) 
+- [Consuming Rest](./guides/consuming_rest/) 
+- [Templates](./guides/templates/) 
+- [Security Auth](./guides/security_auth/) 
+- [Command Line](./guides/command_line/)
+- [Scheduled Task](./guides/scheduled_task/)  
+- [Ajax](./guides/ajax/)  
+- [Jdbc Mysql](./guides/jdbc_mysql/)  
+- [Encrypt Password](./guides/encrypt_password/)  
+- [Https](./guides/https/) 
+- [Jwt](./guides/jwt/) 
+- [Post Request](./guides/post_request/) 
 
 ## Install
 
