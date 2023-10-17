@@ -1,5 +1,3 @@
-## Spring Boot
-
 ### Install
 
 ~~~sh
@@ -17,4 +15,4 @@ git pull origin main
 ##
 
 ### References
-> [Learn and Remember (minte9)](https://www.minte9.com)
+> [Learn and Remember (minte9)](https://www.minte9.com/spring-boot/guides-quick-start-1302)
