@@ -11,12 +11,12 @@
  * - RestController is for APIs only
  *
  * Templates are located in:
- * src/main/resources/templates
+ *  - src/main/resources/templates
  *
  * Test URLs:
- * http://localhost:9090/
- * http://localhost:9090/message
- * http://localhost:9090/hello?username=John
+ *  - http://localhost:9090/
+ *  - http://localhost:9090/message
+ *  - http://localhost:9090/hello?username=John
  */
 
 package demo;
