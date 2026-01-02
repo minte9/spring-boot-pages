@@ -58,7 +58,7 @@
  * - mvn spring-boot:run
  * - OR build and run:
  *     mvn package
- *     java -jar target/quick_start.jar
+ *     java -jar target/quick_start.jar 
  *
  * Test URLs
  * ---------
