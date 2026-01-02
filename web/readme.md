@@ -48,7 +48,7 @@
 
 - Override in:  `src/main/resources/application.properties`
 
-    server.port=9090
+        server.port=9090
 
 ### 📌 How to run
 
