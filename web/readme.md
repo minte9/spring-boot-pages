@@ -47,8 +47,6 @@ Override in:  `src/main/resources/application.properties`
 ### 📌 How to run
 
     mvn spring-boot:run
-    
     OR 
-    
     mvn package
     java -jar target/*.jar
