@@ -45,12 +45,10 @@ Override in:  `src/main/resources/application.properties`
    server.port=9090
 
 ### 📌 How to run
-Mvn
 
     mvn spring-boot:run
-
-Alternative
-
+    
+    OR 
+    
     mvn package
-
     java -jar target/*.jar
