@@ -1,26 +1,22 @@
 /**
- * MVC CONTROLLER
- * --------------
- * A controlelr handles HTTP requests and return:
- *  - A view name (HTML template)
- *  - OR raw data (if ResponseBody is used)
- * 
+ * CONTROLLER – HANDLES WEB REQUESTS
+ * --------------------------------
+ *
+ * This controller:
+ * - Handles GET requests
+ * - Returns HTML templates or plain text
+ *
  * IMPORTANT:
- * ----------
- *  - Use Controller for templates
- *  - Use RestController for APIs
- *  - Templates do NOT work with RestController
- * 
- * Spring Boot DevTools:
- * ---------------------
- *  - Automatically reloads changes
- *  - No server restart needed
- * 
+ * - Use Controller for templates
+ * - RestController is for APIs only
+ *
+ * Templates are located in:
+ * src/main/resources/templates
+ *
  * Test URLs:
- * ----------
- *  - http://localhost:9090
- *  - http://localhost:9090/hello
- *  - http://localhost:9090/hello/?username=John
+ * http://localhost:9090/
+ * http://localhost:9090/message
+ * http://localhost:9090/hello?username=John
  */
 
 package demo;
