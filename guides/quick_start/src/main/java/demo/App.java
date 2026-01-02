@@ -4,7 +4,7 @@
  *
  * What is Spring Boot?
  * --------------------
- * Spring Boot is an opinionated framework built on top of Spring.
+ * Spring Boot is an framework built on top of Spring.
  * Its goal is to let you create production-ready applications
  * with minimal configuration.
  *
