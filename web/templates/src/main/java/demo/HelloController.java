@@ -18,9 +18,9 @@
  * 
  * Test URLs:
  * ----------
- * http://localhost:9090
- * http://localhost:9090/hello
- * http://localhost:9090/hello/?username=John
+ *      http://localhost:9090
+ *      http://localhost:9090/hello
+ *      http://localhost:9090/hello/?username=John
  */
 
 package demo;
@@ -34,7 +34,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloController {
 
     /**
-     * Returns the homepage template.
+     * Returns the homepage template. 
      */
     @GetMapping("/")
     public String home() {

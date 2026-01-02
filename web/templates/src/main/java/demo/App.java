@@ -25,6 +25,10 @@
  * ------------------------------
  * - Templates are placed in:
  *		src/main/resources/templates
+ * 
+ * RUN:
+ * ----
+ * mvn spring-boot:run
  */
 
 package demo;
