@@ -9,7 +9,7 @@
  * with minimal configuration.
  *
  * It follows the principle:
- *   "Convention over Configuration"
+ *   "Convention over Configuration" 
  *
  * This means:
  * - Sensible defaults are provided automatically
