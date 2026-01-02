@@ -1,6 +1,6 @@
 /**
  * SPRING BOOT – MVC APPLICATION
- * ----------------------------
+ * -----------------------------
  *
  * This class starts the Spring Boot application.
  * It launches the embedded web server and loads

@@ -1,6 +1,6 @@
 /**
  * CONTROLLER – HANDLES WEB REQUESTS
- * --------------------------------
+ * ---------------------------------
  *
  * This controller:
  * - Handles GET requests
