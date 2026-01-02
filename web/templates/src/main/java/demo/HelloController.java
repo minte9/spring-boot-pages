@@ -18,9 +18,9 @@
  * 
  * Test URLs:
  * ----------
- *      http://localhost:9090
- *      http://localhost:9090/hello
- *      http://localhost:9090/hello/?username=John
+ *  http://localhost:9090
+ *  http://localhost:9090/hello
+ *  http://localhost:9090/hello/?username=John
  */
 
 package demo;
