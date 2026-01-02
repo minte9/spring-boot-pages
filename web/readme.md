@@ -8,7 +8,6 @@
 
 
 ### 📌 Must-know annotations
-
 - `@SpringBootApplicaton`
     - Marks main class
     - Enables auto-configuration + component scanning
@@ -29,10 +28,6 @@ Templates live in:
 
     src/main/resources/templates
 
-Return value from controller:  
-
-    hello -> hello.html
-
 Data is passed using:  
 
     model.addAttribute("key", value)
@@ -43,7 +38,6 @@ Access data in template:
 
 
 ### 📌 Configuration (minimal)
-
 Default port:  `8080`  
 
 Override in:  `src/main/resources/application.properties`
@@ -51,7 +45,6 @@ Override in:  `src/main/resources/application.properties`
    server.port=9090
 
 ### 📌 How to run
-
 Mvn
 
     mvn spring-boot:run
