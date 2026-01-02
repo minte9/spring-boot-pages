@@ -1,18 +1,63 @@
-### Install
+## Spring Boot Web
 
-~~~sh
-git clone https://github.com/minte9/spring-boot-pages.git
-cd spring-boot-pages/
-~~~
 
-### Updates
+### 📌 Core idea
+- Spring Boot Web = build web apps (MVC and REST) with embeded server
+- No external Tomcat setup required
+- Start app with a singl `main()` method
 
-~~~sh
-cd spring-boot-pages/
-git pull origin main
-~~~
 
-##
+### 📌 Must-know annotations
 
-### References
-> [Learn and Remember](https://www.minte9.com/spring-boot/guides-quick-start-1302) / minte9
+- `@SpringBootApplicaton`
+    - Marks main class
+    - Enables auto-configuration + component scanning
+
+- `@Controller`
+    - Used for HTML templates (MVC)
+
+- `@RestController`
+    - Used for APIs
+    - Returns data, not views
+
+- `@ResponseBody`
+    - Forces raw response even in @Controller
+
+
+### 📌 Templates (Themeleaf)
+- Templates live in: 
+
+        src/main/resources/templates
+
+- Return value from controller:  
+
+        hello -> hello.html
+
+- Data is passed using:  
+
+        model.addAttribute("key", value)
+
+- Access data in template:  
+
+        ${key}
+
+
+### 📌 Configuration (minimal)
+
+- Default port:  `8080`
+
+- Override in:  `src/main/resources/application.properties`
+
+    server.port=9090
+
+### 📌 How to run
+
+Mvn:
+
+    mvn spring-boot:run
+
+Alternative:
+
+    mvn package
+
+    java -jar target/*.jar
