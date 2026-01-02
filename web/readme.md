@@ -25,38 +25,38 @@
 
 
 ### 📌 Templates (Themeleaf)
-- Templates live in: 
+Templates live in: 
 
-        src/main/resources/templates
+    src/main/resources/templates
 
-- Return value from controller:  
+Return value from controller:  
 
-        hello -> hello.html
+    hello -> hello.html
 
-- Data is passed using:  
+Data is passed using:  
 
-        model.addAttribute("key", value)
+    model.addAttribute("key", value)
 
-- Access data in template:  
+Access data in template:  
 
-        ${key}
+    ${key}
 
 
 ### 📌 Configuration (minimal)
 
-- Default port:  `8080`
+Default port:  `8080`  
 
-- Override in:  `src/main/resources/application.properties`
+Override in:  `src/main/resources/application.properties`
 
-        server.port=9090
+   server.port=9090
 
 ### 📌 How to run
 
-Mvn:
+Mvn
 
     mvn spring-boot:run
 
-Alternative:
+Alternative
 
     mvn package
 
