@@ -1,5 +1,5 @@
 /**
- * SPRING BOOT - MVC APPLICATION (TEMPLATES)
+ * MVC APPLICATION (TEMPLATES)
  * -----------------------------------------
  * This is a Spring Boot MVC application that renders HTML pages
  * using templates instead of return raw data.

@@ -1,6 +1,6 @@
 /**
- * MVC APP - CONTROLLER
- * --------------------
+ * MVC CONTROLLER
+ * --------------
  * A controlelr handles HTTP requests and return:
  *  - A view name (HTML template)
  *  - OR raw data (if ResponseBody is used)
